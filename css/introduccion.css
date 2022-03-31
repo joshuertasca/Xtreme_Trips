@@ -7,7 +7,8 @@ body {
     opacity: 0.5;
 }
 .logo {
-    height: 450px;
+    padding-top:50px ;
+    height: 380px;
 }
 .texto1{
     font-size: 2.4rem;

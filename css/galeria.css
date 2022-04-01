@@ -1,0 +1,38 @@
+.galeria img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: none;
+
+}
+
+.galeria1 img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+.buceo1 {
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/actividades/buceo1.jpg");
+    background-size: cover;
+    
+}
+
+.canopy1 {
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/actividades/canopy1.jpg");
+    background-size: cover;
+}
+
+.canopy1 h5 , .buceo1 h5  {
+    display: none;
+}
+
+
+.canopy1:hover h5 , .buceo1:hover h5{
+    display: block;
+}

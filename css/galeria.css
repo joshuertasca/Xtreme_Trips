@@ -290,5 +290,9 @@ width: 100PX;
 margin-left: 500px;
 margin-top: -60px;
 }
-        
+
+.derecha {
+    border-radius:10px;
+    outline:none;
+    }
         

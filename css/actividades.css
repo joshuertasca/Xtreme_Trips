@@ -1,0 +1,15 @@
+.fotos img{
+    width: 520px;
+    height: 520px;
+    object-fit: cover;
+    margin: 20px 0;
+}
+
+.botones{
+    justify-content :center;
+}
+ 
+.seis, .siete, .ocho{
+    padding-block-start: 10px;
+text-align: start;
+}

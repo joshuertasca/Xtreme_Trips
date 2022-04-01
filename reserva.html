@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="">
+    <title>Xtreme Trips </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/actividades.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+</head>
+
+<body>
+    <form>
+
+        <div class="uno mb-3">
+            <label for="exampleInputEmail1" class="form-label">Correo eléctronico</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+
+        <div class="dos mb-3">
+            <label for="exampleInputEmail1" class="form-label">Ciudad</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+
+        <div class="container d-flex flex-row">
+            <div class="tres mb-3">
+                <label for="exampleInputEmail1" class="form-label">N° de adultos</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+
+            <div class="cuatro mb-3">
+                <label for="exampleInputEmail1" class="form-label">N° de menores de edad</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+        </div>
+
+        <div class=" cinco mb-3">
+            <label for="disabledSelect" class="form-label">Selecciona la fecha</label>
+            <select id="disabledSelect" class="form-select">
+                <option>3 abril 2022</option>
+                <option>10 abril 2022</option>
+                <option>17 abril 2022</option>
+                <option>24 abril 2022</option>
+            </select>
+        </div>
+
+        <div class=" seis form-check">
+            <h6>Medio de pago</h6>
+            <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Crédito
+            <label class="form-check-label" for="radio1"></label>
+        </div>
+        <div class=" siete form-check">
+            <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">Débito
+            <label class="form-check-label " for="radio2"></label>
+        </div>
+        <div class=" ocho form-check">
+            <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3">PSE
+            <label class="form-check-label"></label>
+        </div>
+
+    </form>
+
+    <form class="adultos">
+        <div class="nombre mb-3">
+            <label for="exampleInputEmail1" class="form-label">Nombres</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+
+
+        <div class="apellidos mb-3">
+            <label for="exampleInputEmail1" class="form-label">Apellidos</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+
+        <div class=" identificacion mb-3">
+            <label for="exampleInputEmail1" class="form-label">N° de identificación</label>
+            <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+
+        <form class="niños">
+            <div class="nombre mb-3">
+                <label for="exampleInputEmail1" class="form-label">Nombres</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+
+            <div class="apellidos mb-3">
+                <label for="exampleInputEmail1" class="form-label">Apellidos</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+
+            <div class=" identificacion mb-3">
+                <label for="exampleInputEmail1" class="form-label">N° de identificación</label>
+                <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+      </form>
+
+
+
+      <div class=" mediodepago mb-3">
+        <label for="exampleInputEmail1" class="form-label">Total a pagar</label>
+        <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+            integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+            integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="js/actividades.js"></script>
+</body>
+
+
+</html>

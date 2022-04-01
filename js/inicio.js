@@ -24,11 +24,13 @@ function contactanos(){
 
         width: 600,
         padding: '3em',
-        color: '#20DE20',
-        background: '#99ecf1 ',
+        background: '#00000085',
+        color: '#fff',
+        confirmButtonColor: '#000',
         backdrop: `
         rgba(0,0,123,0.4)
         `,
+        
         confirmButtonText: 'Enviar mensaje',
       }).then((result) => {
         if (result.isConfirmed) {
@@ -49,7 +51,11 @@ function contactanos(){
           
           Toast.fire({
             icon: 'success',
-            title: 'su mensaje ha sido enviado recibirá respuesta en el correo '+valor + ' en las proximas 24 horas'
+            title: 'su mensaje ha sido enviado recibirá respuesta en el correo '+valor + ' en las proximas 24 horas',
+            background: '#00000085',
+        color: '#fff',
+        confirmButtonColor: '#000',
+        
           })
 
         }
@@ -64,8 +70,12 @@ function whatsapp() {
     text: "se redigira la pagina a https://web.whatsapp.com/",
     icon: 'question',
     showCancelButton: true,
-    confirmButtonColor: '#3085d6',
-    cancelButtonColor: '#d33',
+    background: '#00000085',
+        color: '#fff',
+        confirmButtonColor: '#000',
+        backdrop: `
+        rgba(0,0,123,0.4)
+        `,
     confirmButtonText: 'Si, abandonar pagina',
     cancelButtonText: 'No, permanecer en esta pagina'
   }).then((result) => {

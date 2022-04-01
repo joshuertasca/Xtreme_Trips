@@ -14,7 +14,7 @@ all.innerHTML = `
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
                     </div>
                 </div>
 
@@ -30,7 +30,7 @@ all.innerHTML = `
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
                     </div>
                 </div>
 
@@ -46,7 +46,7 @@ all.innerHTML = `
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
                     </div>
                 </div>
 
@@ -62,7 +62,7 @@ all.innerHTML = `
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
                     </div>
                 </div>
 
@@ -78,7 +78,7 @@ all.innerHTML = `
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
                     </div>
                 </div>
 
@@ -94,7 +94,7 @@ all.innerHTML = `
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
                     </div>
                 </div>
 
@@ -110,7 +110,7 @@ all.innerHTML = `
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
                     </div>
                 </div>
 
@@ -126,7 +126,7 @@ all.innerHTML = `
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
                     </div>
                 </div>
 
@@ -142,7 +142,7 @@ all.innerHTML = `
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
                     </div>
                 </div>
 
@@ -158,7 +158,7 @@ all.innerHTML = `
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
                     </div>
                 </div>
 
@@ -174,7 +174,7 @@ all.innerHTML = `
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
                     </div>
                 </div>
 
@@ -190,7 +190,7 @@ all.innerHTML = `
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
                     </div>
                 </div>
             </div>
@@ -231,7 +231,7 @@ function agua() {
               <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                   garantizando tu seguridad en tu experiencia.</p>
               </p>
-              <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+              <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
           </div>
       </div>
 
@@ -247,7 +247,7 @@ function agua() {
               <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                   garantizando tu seguridad en tu experiencia.</p>
               </p>
-              <button type="button" class="btn btn-success w-25"onclick="reservas()">Reserva Aquí</button>
+              <button type="button" class="btn btn-success w-50"onclick="reservas()"> Ir al Calendario</button>
           </div>
       </div>
 
@@ -263,7 +263,7 @@ function agua() {
               <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                   garantizando tu seguridad en tu experiencia.</p>
               </p>
-              <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+              <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
           </div>
       </div>
 
@@ -279,7 +279,7 @@ function agua() {
               <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                   garantizando tu seguridad en tu experiencia.</p>
               </p>
-              <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+              <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
           </div>
       </div>
   </div>
@@ -321,7 +321,7 @@ function aire() {
               <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                   garantizando tu seguridad en tu experiencia.</p>
               </p>
-              <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+              <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
           </div>
       </div>
 
@@ -337,7 +337,7 @@ function aire() {
               <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                   garantizando tu seguridad en tu experiencia.</p>
               </p>
-              <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+              <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
           </div>
       </div>
 
@@ -353,7 +353,7 @@ function aire() {
               <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                   garantizando tu seguridad en tu experiencia.</p>
               </p>
-              <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+              <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
           </div>
       </div>
 
@@ -369,7 +369,7 @@ function aire() {
               <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                   garantizando tu seguridad en tu experiencia.</p>
               </p>
-              <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+              <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
           </div>
       </div>
   </div>
@@ -411,7 +411,7 @@ function tierra() {
               <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                   garantizando tu seguridad en tu experiencia.</p>
               </p>
-              <button type="button" class="btn btn-success w-25"onclick="reservas()">Reserva Aquí</button>
+              <button type="button" class="btn btn-success w-50"onclick="reservas()"> Ir al Calendario</button>
           </div>
       </div>
 
@@ -427,7 +427,7 @@ function tierra() {
               <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                   garantizando tu seguridad en tu experiencia.</p>
               </p>
-              <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+              <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
           </div>
       </div>
 
@@ -443,7 +443,7 @@ function tierra() {
               <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                   garantizando tu seguridad en tu experiencia.</p>
               </p>
-              <button type="button" class="btn btn-success w-25"onclick="reservas()">Reserva Aquí</button>
+              <button type="button" class="btn btn-success w-50"onclick="reservas()"> Ir al Calendario</button>
           </div>
       </div>
 
@@ -459,7 +459,7 @@ function tierra() {
               <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                   garantizando tu seguridad en tu experiencia.</p>
               </p>
-              <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+              <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
           </div>
       </div>
   </div>
@@ -501,7 +501,7 @@ function todos() {
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
                     </div>
                 </div>
 
@@ -517,7 +517,7 @@ function todos() {
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
                     </div>
                 </div>
 
@@ -533,7 +533,7 @@ function todos() {
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
                     </div>
                 </div>
 
@@ -549,7 +549,7 @@ function todos() {
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
                     </div>
                 </div>
 
@@ -565,7 +565,7 @@ function todos() {
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
                     </div>
                 </div>
 
@@ -581,7 +581,7 @@ function todos() {
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
                     </div>
                 </div>
 
@@ -597,7 +597,7 @@ function todos() {
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
                     </div>
                 </div>
 
@@ -613,7 +613,7 @@ function todos() {
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
                     </div>
                 </div>
 
@@ -629,7 +629,7 @@ function todos() {
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
                     </div>
                 </div>
 
@@ -645,7 +645,7 @@ function todos() {
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
                     </div>
                 </div>
 
@@ -661,7 +661,7 @@ function todos() {
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
                     </div>
                 </div>
 
@@ -677,7 +677,7 @@ function todos() {
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-25" onclick="reservas()">Reserva Aquí</button>
+                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
                     </div>
                 </div>
             </div>
@@ -704,107 +704,7 @@ function todos() {
 }
 
 function reservas() {
-    Swal.fire({
-        html:
-            '<form>' +
-            '<div class="uno fw-bold mb-3">' +
-            '<label for="email1" class="form-label">Correo eléctronico</label>' +
-            '<input type="email" class="form-control" id="email1" aria-describedby="emailHelp"></div>' +
-
-            '<div class="dos fw-bold w-50 container d-flex flex-column text-center justify-content-center align-content-center mb-3 mb-3">' +
-            '<label for="city" class="form-label">Ciudad</label>' +
-            '<input type="text" class="form-control" id="city" aria-describedby="emailHelp">' +
-            '</div>' +
-
-            '<div class=" container d-flex flex-row">' +
-            '<div class="tres px-3 fw-bold mb-3">' +
-            '<label for="personasadultas" class="form-label">N° de adultos</label>' +
-            '<input type="number" class="form-control" id="personasadultas" aria-describedby="emailHelp"></div>' +
-
-            '<div class="cuatro fw-bold mb-3">' +
-            '<label for="reservaniños" class="form-label">N° de menores de edad</label>' +
-            '<input type="number" class="form-control" id="reservaniños" aria-describedby="emailHelp">' +
-            '</div>' +
-            '</div>' +
-
-            '<div class="cinco  fw-bold w-50 container d-flex flex-column text-center justify-content-center align-content-center mb-3">' +
-            '<label for="date" class=" form-label ">Selecciona la fecha</label>' +
-            '<select id="date" class=" fechas form-select">' +
-            '<option>3 abril 2022</option>' +
-            '<option>10 abril 2022</option>' +
-            '<option>17 abril 2022</option>' +
-            '<option>24 abril 2022</option>' +
-            '</select>' +
-            '</div>' +
-
-            '<div id="formadepago">' +
-            '<div class=" seis form-check">' +
-            '<h5>Medio de pago</h5>' +
-            '<input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" onclick="" checked>Crédito' +
-            '<label class="form-check-label" for="radio1"></label>' +
-            '</div>' +
-            '<div class="siete form-check">' +
-            '<input type="radio" class="form-check-input" id="radio2" name="optradio" onclick="" value="option2">Débito' +
-            '<label class="form-check-label" for="radio2"></label>' +
-            '</div>' +
-            '<div class="ocho form-check">' +
-            '<input type="radio" class="form-check-input" id="radio3" onclick="" name="optradio" value="option3">PSE' +
-            '<label class="form-check-label" for="radio3"></label>' +
-            '</div>' +
-            '</div>' +
-            '</form>',
-        confirmButtonText: 'Enviar Datos',
-        background: '#00000085',
-        color: '#fff',
-        confirmButtonColor: '#000',
-
-    }).then((result) => {
-        if (result.isConfirmed) {
-
-            var correoreserva = document.querySelector("#email1").value
-            var numeroadultos = document.querySelector("#personasadultas").value
-            var cuidadreserva = document.querySelector("#city").value
-            var numeroniños = document.querySelector("#reservaniños").value
-            var fechareserva = document.querySelector("#date").value
-            var formasdepago = 0
-            var nose = 0
-
-            let radio1 = document.querySelector("#radio1")
-            let radio2 = document.querySelector("#radio2")
-            let radio3 = document.querySelector("#radio3")
-            if (radio1.checked) {
-                formasdepago = 1
-            }
-            if (radio2.checked) {
-                formasdepago = 2
-            }
-            if (radio3.checked) {
-                formasdepago = 3
-            }
-
-            for (let index = 1; index <= 3; index++) {
-                Swal.fire({
-                    position: 'top-end',
-                    icon: 'success',
-                    title: 'Your work has been saved',
-                    showConfirmButton: false,
-                    timer: 1500
-                })
-
-
-            }
-
-
-
-        }
-    }
-    )
-
-
-
-
-
-
+    window.location.href='../calendario.html'
 }
 
 

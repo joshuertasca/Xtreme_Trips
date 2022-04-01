@@ -254,166 +254,166 @@ function adelante(){
     switch (mes_actual) {
         case 0:
             var actvidad1= document.querySelector(".dd10_0")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">15</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">10</h4> ` 
             
             var actvidad1= document.querySelector(".dd8_0")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">4</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">8</h4> `
 
             var actvidad1= document.querySelector(".dd19_0")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">13</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">19</h4> `
 
             var actvidad1= document.querySelector(".dd17_0")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">25</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">17</h4> `
 
             var actvidad1= document.querySelector(".dd28_0")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">30</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">28</h4> `
             break;
         case 1:
             var actvidad1= document.querySelector(".dd10_1")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">15</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">10</h4> ` 
             
             var actvidad1= document.querySelector(".dd8_1")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">4</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">8</h4> `
 
             var actvidad1= document.querySelector(".dd19_1")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">13</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">19</h4> `
 
             var actvidad1= document.querySelector(".dd17_1")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">25</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">17</h4> `
 
             var actvidad1= document.querySelector(".dd25_1")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">30</h4> `    
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">28</h4> `    
 
 
             break;
         case 2:
-            var actvidad1= document.querySelector(".dd15_2")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">15</h4> ` 
+            var actvidad1= document.querySelector(".dd10_2")
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">10</h4> ` 
             
-            var actvidad1= document.querySelector(".dd4_2")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">4</h4> `
+            var actvidad1= document.querySelector(".dd8_2")
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">8</h4> `
 
-            var actvidad1= document.querySelector(".dd13_2")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">13</h4> `
+            var actvidad1= document.querySelector(".dd19_2")
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">19</h4> `
 
-            var actvidad1= document.querySelector(".dd25_2")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">25</h4> `
+            var actvidad1= document.querySelector(".dd17_2")
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">17</h4> `
 
-            var actvidad1= document.querySelector(".dd30_2")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">30</h4> `
+            var actvidad1= document.querySelector(".dd28_2")
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">28</h4> `
 
             break;
         case 3:
             var actvidad1= document.querySelector(".dd10_3")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
             
             var actvidad1= document.querySelector(".dd8_3")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
             var actvidad1= document.querySelector(".dd19_3")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
             var actvidad1= document.querySelector(".dd17_3")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
             var actvidad1= document.querySelector(".dd28_3")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> ` 
             break;
         case 4:
             var actvidad1= document.querySelector(".dd10_4")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
             
             var actvidad1= document.querySelector(".dd8_4")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
             var actvidad1= document.querySelector(".dd19_4")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
             var actvidad1= document.querySelector(".dd17_4")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
             var actvidad1= document.querySelector(".dd28_4")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> ` 
             break;
         case 5:
             var actvidad1= document.querySelector(".dd10_5")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
             
             var actvidad1= document.querySelector(".dd8_5")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
             var actvidad1= document.querySelector(".dd19_5")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
             var actvidad1= document.querySelector(".dd17_5")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
             var actvidad1= document.querySelector(".dd28_5")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> ` 
             break;
         case 6:
             var actvidad1= document.querySelector(".dd10_6")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
             
             var actvidad1= document.querySelector(".dd8_6")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
             var actvidad1= document.querySelector(".dd19_6")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
             var actvidad1= document.querySelector(".dd17_6")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
             var actvidad1= document.querySelector(".dd28_6")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> ` 
             break;
         case 7:
             var actvidad1= document.querySelector(".dd10_7")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
             
             var actvidad1= document.querySelector(".dd8_7")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
             var actvidad1= document.querySelector(".dd19_7")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
             var actvidad1= document.querySelector(".dd17_7")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
             var actvidad1= document.querySelector(".dd28_7")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> ` 
             break;
         case 8:
             var actvidad1= document.querySelector(".dd10_8")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
             
             var actvidad1= document.querySelector(".dd8_8")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
             var actvidad1= document.querySelector(".dd19_8")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
             var actvidad1= document.querySelector(".dd17_8")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
             var actvidad1= document.querySelector(".dd28_8")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> ` 
             break;
         case 9:
             var actvidad1= document.querySelector(".dd10_9")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
             
             var actvidad1= document.querySelector(".dd8_9")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
             var actvidad1= document.querySelector(".dd19_9")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
             var actvidad1= document.querySelector(".dd17_9")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
             var actvidad1= document.querySelector(".dd28_9")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> ` 
             break;
         case 10:
             
@@ -561,166 +561,166 @@ function atras(){
     switch (mes_actual) {
         case 0:
             var actvidad1= document.querySelector(".dd10_0")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">15</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">10</h4> ` 
             
             var actvidad1= document.querySelector(".dd8_0")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">4</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">8</h4> `
 
             var actvidad1= document.querySelector(".dd19_0")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">13</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">19</h4> `
 
             var actvidad1= document.querySelector(".dd17_0")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">25</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">17</h4> `
 
             var actvidad1= document.querySelector(".dd28_0")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">30</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">28</h4> `
             break;
         case 1:
             var actvidad1= document.querySelector(".dd10_1")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">15</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">10</h4> ` 
             
             var actvidad1= document.querySelector(".dd8_1")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">4</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">8</h4> `
 
             var actvidad1= document.querySelector(".dd19_1")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">13</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">19</h4> `
 
             var actvidad1= document.querySelector(".dd17_1")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">25</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">17</h4> `
 
             var actvidad1= document.querySelector(".dd25_1")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">30</h4> `    
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">28</h4> `    
 
 
             break;
         case 2:
-            var actvidad1= document.querySelector(".dd15_2")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">15</h4> ` 
+            var actvidad1= document.querySelector(".dd10_2")
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">10</h4> ` 
             
-            var actvidad1= document.querySelector(".dd4_2")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">4</h4> `
+            var actvidad1= document.querySelector(".dd8_2")
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">8</h4> `
 
-            var actvidad1= document.querySelector(".dd13_2")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">13</h4> `
+            var actvidad1= document.querySelector(".dd19_2")
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">19</h4> `
 
-            var actvidad1= document.querySelector(".dd25_2")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">25</h4> `
+            var actvidad1= document.querySelector(".dd17_2")
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">17</h4> `
 
-            var actvidad1= document.querySelector(".dd30_2")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">30</h4> `
+            var actvidad1= document.querySelector(".dd28_2")
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">28</h4> `
 
             break;
         case 3:
             var actvidad1= document.querySelector(".dd10_3")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
             
             var actvidad1= document.querySelector(".dd8_3")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
             var actvidad1= document.querySelector(".dd19_3")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
             var actvidad1= document.querySelector(".dd17_3")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
             var actvidad1= document.querySelector(".dd28_3")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> ` 
             break;
         case 4:
             var actvidad1= document.querySelector(".dd10_4")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
             
             var actvidad1= document.querySelector(".dd8_4")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
             var actvidad1= document.querySelector(".dd19_4")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
             var actvidad1= document.querySelector(".dd17_4")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
             var actvidad1= document.querySelector(".dd28_4")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> ` 
             break;
         case 5:
             var actvidad1= document.querySelector(".dd10_5")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
             
             var actvidad1= document.querySelector(".dd8_5")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
             var actvidad1= document.querySelector(".dd19_5")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
             var actvidad1= document.querySelector(".dd17_5")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
             var actvidad1= document.querySelector(".dd28_5")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> ` 
             break;
         case 6:
             var actvidad1= document.querySelector(".dd10_6")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
             
             var actvidad1= document.querySelector(".dd8_6")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
             var actvidad1= document.querySelector(".dd19_6")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
             var actvidad1= document.querySelector(".dd17_6")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
             var actvidad1= document.querySelector(".dd28_6")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> ` 
             break;
         case 7:
             var actvidad1= document.querySelector(".dd10_7")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
             
             var actvidad1= document.querySelector(".dd8_7")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
             var actvidad1= document.querySelector(".dd19_7")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
             var actvidad1= document.querySelector(".dd17_7")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
             var actvidad1= document.querySelector(".dd28_7")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> ` 
             break;
         case 8:
             var actvidad1= document.querySelector(".dd10_8")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
             
             var actvidad1= document.querySelector(".dd8_8")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
             var actvidad1= document.querySelector(".dd19_8")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
             var actvidad1= document.querySelector(".dd17_8")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
             var actvidad1= document.querySelector(".dd28_8")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> ` 
             break;
         case 9:
             var actvidad1= document.querySelector(".dd10_9")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
             
             var actvidad1= document.querySelector(".dd8_9")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
             var actvidad1= document.querySelector(".dd19_9")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
             var actvidad1= document.querySelector(".dd17_9")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
             var actvidad1= document.querySelector(".dd28_9")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> ` 
             break;
         case 10:
             
@@ -873,166 +873,166 @@ for (let index = 0; index < 6; index++) {
 switch (mes_actual) {
     case 0:
         var actvidad1= document.querySelector(".dd10_0")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
         
         var actvidad1= document.querySelector(".dd8_0")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
         var actvidad1= document.querySelector(".dd19_0")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
         var actvidad1= document.querySelector(".dd17_0")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
         var actvidad1= document.querySelector(".dd28_0")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> `
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> `
         break;
     case 1:
         var actvidad1= document.querySelector(".dd10_1")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
         
         var actvidad1= document.querySelector(".dd8_1")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
         var actvidad1= document.querySelector(".dd19_1")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
         var actvidad1= document.querySelector(".dd17_1")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
         var actvidad1= document.querySelector(".dd25_1")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> `    
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> `    
 
 
         break;
     case 2:
-        var actvidad1= document.querySelector(".dd15_2")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+        var actvidad1= document.querySelector(".dd10_2")
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
         
-        var actvidad1= document.querySelector(".dd4_2")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+        var actvidad1= document.querySelector(".dd8_2")
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
-        var actvidad1= document.querySelector(".dd13_2")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+        var actvidad1= document.querySelector(".dd19_2")
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
-        var actvidad1= document.querySelector(".dd25_2")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+        var actvidad1= document.querySelector(".dd17_2")
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
-        var actvidad1= document.querySelector(".dd30_2")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> `
+        var actvidad1= document.querySelector(".dd28_2")
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> `
 
         break;
     case 3:
         var actvidad1= document.querySelector(".dd10_3")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
         
         var actvidad1= document.querySelector(".dd8_3")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
         var actvidad1= document.querySelector(".dd19_3")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
         var actvidad1= document.querySelector(".dd17_3")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
         var actvidad1= document.querySelector(".dd28_3")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> ` 
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> ` 
         break;
     case 4:
         var actvidad1= document.querySelector(".dd10_4")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
         
         var actvidad1= document.querySelector(".dd8_4")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
         var actvidad1= document.querySelector(".dd19_4")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
         var actvidad1= document.querySelector(".dd17_4")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
         var actvidad1= document.querySelector(".dd28_4")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> ` 
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> ` 
         break;
     case 5:
         var actvidad1= document.querySelector(".dd10_5")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
         
         var actvidad1= document.querySelector(".dd8_5")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
         var actvidad1= document.querySelector(".dd19_5")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
         var actvidad1= document.querySelector(".dd17_5")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
         var actvidad1= document.querySelector(".dd28_5")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> ` 
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> ` 
         break;
     case 6:
         var actvidad1= document.querySelector(".dd10_6")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
         
         var actvidad1= document.querySelector(".dd8_6")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
         var actvidad1= document.querySelector(".dd19_6")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
         var actvidad1= document.querySelector(".dd17_6")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
         var actvidad1= document.querySelector(".dd28_6")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> ` 
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> ` 
         break;
     case 7:
         var actvidad1= document.querySelector(".dd10_7")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
         
         var actvidad1= document.querySelector(".dd8_7")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
         var actvidad1= document.querySelector(".dd19_7")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
         var actvidad1= document.querySelector(".dd17_7")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
         var actvidad1= document.querySelector(".dd28_7")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> ` 
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> ` 
         break;
     case 8:
         var actvidad1= document.querySelector(".dd10_8")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
         
         var actvidad1= document.querySelector(".dd8_8")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
         var actvidad1= document.querySelector(".dd19_8")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
         var actvidad1= document.querySelector(".dd17_8")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
         var actvidad1= document.querySelector(".dd28_8")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> ` 
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> ` 
         break;
     case 9:
         var actvidad1= document.querySelector(".dd10_9")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
         
         var actvidad1= document.querySelector(".dd8_9")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
         var actvidad1= document.querySelector(".dd19_9")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
         var actvidad1= document.querySelector(".dd17_9")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
         var actvidad1= document.querySelector(".dd28_9")
-        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> ` 
+        actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> ` 
         break;
     case 10:
         
@@ -1047,166 +1047,166 @@ switch (mes_actual) {
     switch (mes_actual) {
         case 0:
             var actvidad1= document.querySelector(".dd10_0")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">15</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">10</h4> ` 
             
             var actvidad1= document.querySelector(".dd8_0")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">4</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">8</h4> `
 
             var actvidad1= document.querySelector(".dd19_0")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">13</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">19</h4> `
 
             var actvidad1= document.querySelector(".dd17_0")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">25</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">17</h4> `
 
             var actvidad1= document.querySelector(".dd28_0")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">30</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">28</h4> `
             break;
         case 1:
             var actvidad1= document.querySelector(".dd10_1")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">15</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">10</h4> ` 
             
             var actvidad1= document.querySelector(".dd8_1")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">4</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">8</h4> `
 
             var actvidad1= document.querySelector(".dd19_1")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">13</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">19</h4> `
 
             var actvidad1= document.querySelector(".dd17_1")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">25</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">17</h4> `
 
             var actvidad1= document.querySelector(".dd25_1")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">30</h4> `    
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">28</h4> `    
 
 
             break;
         case 2:
-            var actvidad1= document.querySelector(".dd15_2")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">15</h4> ` 
+            var actvidad1= document.querySelector(".dd10_2")
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">10</h4> ` 
             
-            var actvidad1= document.querySelector(".dd4_2")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">4</h4> `
+            var actvidad1= document.querySelector(".dd8_2")
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">8</h4> `
 
-            var actvidad1= document.querySelector(".dd13_2")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">13</h4> `
+            var actvidad1= document.querySelector(".dd19_2")
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">19</h4> `
 
-            var actvidad1= document.querySelector(".dd25_2")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">25</h4> `
+            var actvidad1= document.querySelector(".dd17_2")
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">17</h4> `
 
-            var actvidad1= document.querySelector(".dd30_2")
-            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">30</h4> `
+            var actvidad1= document.querySelector(".dd28_2")
+            actvidad1.innerHTML = `<h4 class="bg-danger" onclick="actividadv()">28</h4> `
 
             break;
         case 3:
             var actvidad1= document.querySelector(".dd10_3")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
             
             var actvidad1= document.querySelector(".dd8_3")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
             var actvidad1= document.querySelector(".dd19_3")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
             var actvidad1= document.querySelector(".dd17_3")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
             var actvidad1= document.querySelector(".dd28_3")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> ` 
             break;
         case 4:
             var actvidad1= document.querySelector(".dd10_4")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
             
             var actvidad1= document.querySelector(".dd8_4")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
             var actvidad1= document.querySelector(".dd19_4")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
             var actvidad1= document.querySelector(".dd17_4")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
             var actvidad1= document.querySelector(".dd28_4")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> ` 
             break;
         case 5:
             var actvidad1= document.querySelector(".dd10_5")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
             
             var actvidad1= document.querySelector(".dd8_5")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
             var actvidad1= document.querySelector(".dd19_5")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
             var actvidad1= document.querySelector(".dd17_5")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
             var actvidad1= document.querySelector(".dd28_5")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> ` 
             break;
         case 6:
             var actvidad1= document.querySelector(".dd10_6")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
             
             var actvidad1= document.querySelector(".dd8_6")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
             var actvidad1= document.querySelector(".dd19_6")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
             var actvidad1= document.querySelector(".dd17_6")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
             var actvidad1= document.querySelector(".dd28_6")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> ` 
             break;
         case 7:
             var actvidad1= document.querySelector(".dd10_7")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
             
             var actvidad1= document.querySelector(".dd8_7")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
             var actvidad1= document.querySelector(".dd19_7")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
             var actvidad1= document.querySelector(".dd17_7")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
             var actvidad1= document.querySelector(".dd28_7")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> ` 
             break;
         case 8:
             var actvidad1= document.querySelector(".dd10_8")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
             
             var actvidad1= document.querySelector(".dd8_8")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
             var actvidad1= document.querySelector(".dd19_8")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
             var actvidad1= document.querySelector(".dd17_8")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
             var actvidad1= document.querySelector(".dd28_8")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> ` 
             break;
         case 9:
             var actvidad1= document.querySelector(".dd10_9")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">15</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad1()">10</h4> ` 
             
             var actvidad1= document.querySelector(".dd8_9")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">4</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad2()">8</h4> `
 
             var actvidad1= document.querySelector(".dd19_9")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">13</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad3()">19</h4> `
 
             var actvidad1= document.querySelector(".dd17_9")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">25</h4> `
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad4()">17</h4> `
 
             var actvidad1= document.querySelector(".dd28_9")
-            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">30</h4> ` 
+            actvidad1.innerHTML = `<h4 class="bg-primary" onclick="actividad5()">28</h4> ` 
             break;
         case 10:
             
@@ -1220,28 +1220,408 @@ switch (mes_actual) {
 
 
 function actividad1() {
-    console.log(1);
+    Swal.fire({
+        title: 'Buceo',
+        text: '¿Desea reservar la actividad de buceo para esta fecha?',
+        imageUrl: '../img/actividades/buceo.jpg',
+        imageWidth: 300,
+        imageHeight: 200,
+        imageAlt: 'Custom image',
+        showCancelButton: true,
+        confirmButtonText: 'Reservar',
+        cancelButtonText: 'Cancelar',
+        background: '#00000085',
+                color: '#fff',
+                confirmButtonColor: '#000',
+        
+      }).then((result) => {
+        if (result.isConfirmed) {
+            Swal.fire({
+                html:
+                    '<form>' +
+                    '<div class="uno fw-bold mb-3">' +
+                    '<label for="email1" class="form-label">Correo eléctronico</label>' +
+                    '<input type="email" class="form-control" id="email1" aria-describedby="emailHelp"></div>' +
+        
+                    '<div class="dos fw-bold w-50 container d-flex flex-column text-center justify-content-center align-content-center mb-3 mb-3">' +
+                    '<label for="city" class="form-label">Ciudad</label>' +
+                    '<input type="text" class="form-control" id="city" aria-describedby="emailHelp">' +
+                    '</div>' +
+        
+                    '<div class=" container d-flex flex-row">' +
+                    '<div class="tres px-3 fw-bold mb-3">' +
+                    '<label for="personasadultas" class="form-label">N° de adultos</label>' +
+                    '<input type="number" class="form-control" id="personasadultas" aria-describedby="emailHelp"></div>' +
+        
+                    '<div class="cuatro fw-bold mb-3">' +
+                    '<label for="reservaniños" class="form-label">N° de menores de edad</label>' +
+                    '<input type="number" class="form-control" id="reservaniños" aria-describedby="emailHelp">' +
+                    '</div>' +
+                    '</div>' +
+        
+                    '<div class="cinco  fw-bold w-50 container d-flex flex-column text-center justify-content-center align-content-center mb-3">' +
+                    '<label for="date" class=" form-label ">Selecciona la fecha</label>' +
+                    '<select id="date" class=" fechas form-select">' +
+                    '<option>10 '+ meses[mes_actual]+' 2022</option>' +
+                    '<option>10 abril 2022</option>' +
+                    '<option>17 abril 2022</option>' +
+                    '<option>24 abril 2022</option>' +
+                    '</select>' +
+                    '</div>' +
+        
+                    '<div id="formadepago">' +
+                    '<div class=" seis form-check">' +
+                    '<h5>Medio de pago</h5>' +
+                    '<input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" onclick="" checked>Crédito' +
+                    '<label class="form-check-label" for="radio1"></label>' +
+                    '</div>' +
+                    '<div class="siete form-check">' +
+                    '<input type="radio" class="form-check-input" id="radio2" name="optradio" onclick="" value="option2">Débito' +
+                    '<label class="form-check-label" for="radio2"></label>' +
+                    '</div>' +
+                    '<div class="ocho form-check">' +
+                    '<input type="radio" class="form-check-input" id="radio3" onclick="" name="optradio" value="option3">PSE' +
+                    '<label class="form-check-label" for="radio3"></label>' +
+                    '</div>' +
+                    '</div>' +
+                    '</form>',
+                confirmButtonText: 'Enviar Datos',
+                background: '#00000085',
+                color: '#fff',
+                confirmButtonColor: '#000',
+            })
+        }
+      })
+
+
+
 }
 
 function actividad2(){
-    console.log(2);
+    Swal.fire({
+        title: 'Canyoning',
+        text: '¿Desea reservar la actividad de canyoning para esta fecha?',
+        imageUrl: '../img/actividades/canyoning.png',
+        imageWidth: 300,
+        imageHeight: 200,
+        imageAlt: 'Custom image',
+        showCancelButton: true,
+        confirmButtonText: 'Reservar',
+        cancelButtonText: 'Cancelar',
+        background: '#00000085',
+                color: '#fff',
+                confirmButtonColor: '#000',
+      }) .then((result) => {
+        if (result.isConfirmed) {
+            Swal.fire({
+                html:
+                    '<form>' +
+                    '<div class="uno fw-bold mb-3">' +
+                    '<label for="email1" class="form-label">Correo eléctronico</label>' +
+                    '<input type="email" class="form-control" id="email1" aria-describedby="emailHelp"></div>' +
+        
+                    '<div class="dos fw-bold w-50 container d-flex flex-column text-center justify-content-center align-content-center mb-3 mb-3">' +
+                    '<label for="city" class="form-label">Ciudad</label>' +
+                    '<input type="text" class="form-control" id="city" aria-describedby="emailHelp">' +
+                    '</div>' +
+        
+                    '<div class=" container d-flex flex-row">' +
+                    '<div class="tres px-3 fw-bold mb-3">' +
+                    '<label for="personasadultas" class="form-label">N° de adultos</label>' +
+                    '<input type="number" class="form-control" id="personasadultas" aria-describedby="emailHelp"></div>' +
+        
+                    '<div class="cuatro fw-bold mb-3">' +
+                    '<label for="reservaniños" class="form-label">N° de menores de edad</label>' +
+                    '<input type="number" class="form-control" id="reservaniños" aria-describedby="emailHelp">' +
+                    '</div>' +
+                    '</div>' +
+        
+                    '<div class="cinco  fw-bold w-50 container d-flex flex-column text-center justify-content-center align-content-center mb-3">' +
+                    '<label for="date" class=" form-label ">Selecciona la fecha</label>' +
+                    '<select id="date" class=" fechas form-select">' +
+                    '<option>8 '+ meses[mes_actual]+' 2022</option>' +
+                    '<option>10 abril 2022</option>' +
+                    '<option>17 abril 2022</option>' +
+                    '<option>24 abril 2022</option>' +
+                    '</select>' +
+                    '</div>' +
+        
+                    '<div id="formadepago">' +
+                    '<div class=" seis form-check">' +
+                    '<h5>Medio de pago</h5>' +
+                    '<input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" onclick="" checked>Crédito' +
+                    '<label class="form-check-label" for="radio1"></label>' +
+                    '</div>' +
+                    '<div class="siete form-check">' +
+                    '<input type="radio" class="form-check-input" id="radio2" name="optradio" onclick="" value="option2">Débito' +
+                    '<label class="form-check-label" for="radio2"></label>' +
+                    '</div>' +
+                    '<div class="ocho form-check">' +
+                    '<input type="radio" class="form-check-input" id="radio3" onclick="" name="optradio" value="option3">PSE' +
+                    '<label class="form-check-label" for="radio3"></label>' +
+                    '</div>' +
+                    '</div>' +
+                    '</form>',
+                confirmButtonText: 'Enviar Datos',
+                background: '#00000085',
+                color: '#fff',
+                confirmButtonColor: '#000',
+            })
+        }
+      })
+
+
+
+
+
 }
 
 function actividad3(){
-    console.log(3);
+    Swal.fire({
+        title: 'Trekking',
+        text: '¿Desea reservar la actividad de Trekking para esta fecha?',
+        imageUrl: '../img/actividades/treakking.jpg',
+        imageWidth: 300,
+        imageHeight: 200,
+        imageAlt: 'Custom image',
+        showCancelButton: true,
+        confirmButtonText: 'Reservar',
+        cancelButtonText: 'Cancelar',
+        background: '#00000085',
+                color: '#fff',
+                confirmButtonColor: '#000',
+      }) .then((result) => {
+        if (result.isConfirmed) {
+            Swal.fire({
+                html:
+                    '<form>' +
+                    '<div class="uno fw-bold mb-3">' +
+                    '<label for="email1" class="form-label">Correo eléctronico</label>' +
+                    '<input type="email" class="form-control" id="email1" aria-describedby="emailHelp"></div>' +
+        
+                    '<div class="dos fw-bold w-50 container d-flex flex-column text-center justify-content-center align-content-center mb-3 mb-3">' +
+                    '<label for="city" class="form-label">Ciudad</label>' +
+                    '<input type="text" class="form-control" id="city" aria-describedby="emailHelp">' +
+                    '</div>' +
+        
+                    '<div class=" container d-flex flex-row">' +
+                    '<div class="tres px-3 fw-bold mb-3">' +
+                    '<label for="personasadultas" class="form-label">N° de adultos</label>' +
+                    '<input type="number" class="form-control" id="personasadultas" aria-describedby="emailHelp"></div>' +
+        
+                    '<div class="cuatro fw-bold mb-3">' +
+                    '<label for="reservaniños" class="form-label">N° de menores de edad</label>' +
+                    '<input type="number" class="form-control" id="reservaniños" aria-describedby="emailHelp">' +
+                    '</div>' +
+                    '</div>' +
+        
+                    '<div class="cinco  fw-bold w-50 container d-flex flex-column text-center justify-content-center align-content-center mb-3">' +
+                    '<label for="date" class=" form-label ">Selecciona la fecha</label>' +
+                    '<select id="date" class=" fechas form-select">' +
+                    '<option>19 '+ meses[mes_actual]+' 2022</option>' +
+                    '<option>10 abril 2022</option>' +
+                    '<option>17 abril 2022</option>' +
+                    '<option>24 abril 2022</option>' +
+                    '</select>' +
+                    '</div>' +
+        
+                    '<div id="formadepago">' +
+                    '<div class=" seis form-check">' +
+                    '<h5>Medio de pago</h5>' +
+                    '<input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" onclick="" checked>Crédito' +
+                    '<label class="form-check-label" for="radio1"></label>' +
+                    '</div>' +
+                    '<div class="siete form-check">' +
+                    '<input type="radio" class="form-check-input" id="radio2" name="optradio" onclick="" value="option2">Débito' +
+                    '<label class="form-check-label" for="radio2"></label>' +
+                    '</div>' +
+                    '<div class="ocho form-check">' +
+                    '<input type="radio" class="form-check-input" id="radio3" onclick="" name="optradio" value="option3">PSE' +
+                    '<label class="form-check-label" for="radio3"></label>' +
+                    '</div>' +
+                    '</div>' +
+                    '</form>',
+                confirmButtonText: 'Enviar Datos',
+                background: '#00000085',
+                color: '#fff',
+                confirmButtonColor: '#000',
+            })
+        }
+      })
+
+
+
+
+
+
 }
 function actividad4(){
-    console.log(4);
+    Swal.fire({
+        title: 'Paracaidismo',
+        text: '¿Desea reservar la actividad de paracaidismo para esta fecha?',
+        imageUrl: '../img/actividades/paracaidismo2.jpeg',
+        imageWidth: 300,
+        imageHeight: 200,
+        imageAlt: 'Custom image',
+        showCancelButton: true,
+        confirmButtonText: 'Reservar',
+        cancelButtonText: 'Cancelar',
+        background: '#00000085',
+                color: '#fff',
+                confirmButtonColor: '#000',
+      }) .then((result) => {
+        if (result.isConfirmed) {
+            Swal.fire({
+                html:
+                    '<form>' +
+                    '<div class="uno fw-bold mb-3">' +
+                    '<label for="email1" class="form-label">Correo eléctronico</label>' +
+                    '<input type="email" class="form-control" id="email1" aria-describedby="emailHelp"></div>' +
+        
+                    '<div class="dos fw-bold w-50 container d-flex flex-column text-center justify-content-center align-content-center mb-3 mb-3">' +
+                    '<label for="city" class="form-label">Ciudad</label>' +
+                    '<input type="text" class="form-control" id="city" aria-describedby="emailHelp">' +
+                    '</div>' +
+        
+                    '<div class=" container d-flex flex-row">' +
+                    '<div class="tres px-3 fw-bold mb-3">' +
+                    '<label for="personasadultas" class="form-label">N° de adultos</label>' +
+                    '<input type="number" class="form-control" id="personasadultas" aria-describedby="emailHelp"></div>' +
+        
+                    '<div class="cuatro fw-bold mb-3">' +
+                    '<label for="reservaniños" class="form-label">N° de menores de edad</label>' +
+                    '<input type="number" class="form-control" id="reservaniños" aria-describedby="emailHelp">' +
+                    '</div>' +
+                    '</div>' +
+        
+                    '<div class="cinco  fw-bold w-50 container d-flex flex-column text-center justify-content-center align-content-center mb-3">' +
+                    '<label for="date" class=" form-label ">Selecciona la fecha</label>' +
+                    '<select id="date" class=" fechas form-select">' +
+                    '<option>17 '+ meses[mes_actual]+' 2022</option>' +
+                    '<option>10 abril 2022</option>' +
+                    '<option>17 abril 2022</option>' +
+                    '<option>24 abril 2022</option>' +
+                    '</select>' +
+                    '</div>' +
+        
+                    '<div id="formadepago">' +
+                    '<div class=" seis form-check">' +
+                    '<h5>Medio de pago</h5>' +
+                    '<input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" onclick="" checked>Crédito' +
+                    '<label class="form-check-label" for="radio1"></label>' +
+                    '</div>' +
+                    '<div class="siete form-check">' +
+                    '<input type="radio" class="form-check-input" id="radio2" name="optradio" onclick="" value="option2">Débito' +
+                    '<label class="form-check-label" for="radio2"></label>' +
+                    '</div>' +
+                    '<div class="ocho form-check">' +
+                    '<input type="radio" class="form-check-input" id="radio3" onclick="" name="optradio" value="option3">PSE' +
+                    '<label class="form-check-label" for="radio3"></label>' +
+                    '</div>' +
+                    '</div>' +
+                    '</form>',
+                confirmButtonText: 'Enviar Datos',
+                background: '#00000085',
+                color: '#fff',
+                confirmButtonColor: '#000',
+            })
+        }
+      })
+
+
+
+
 }
 function actividad5(){
-    console.log(5);
+    Swal.fire({
+        title: 'Climbing',
+        text: '¿Desea reservar la actividad de escalada para esta fecha?',
+        imageUrl: '../img/actividades/escalada.jpg',
+        imageWidth: 300,
+        imageHeight: 200,
+        imageAlt: 'Custom image',
+        showCancelButton: true,
+        confirmButtonText: 'Reservar',
+        cancelButtonText: 'Cancelar',
+        background: '#00000085',
+                color: '#fff',
+                confirmButtonColor: '#000',
+      }) .then((result) => {
+        if (result.isConfirmed) {
+            Swal.fire({
+                html:
+                    '<form>' +
+                    '<div class="uno fw-bold mb-3">' +
+                    '<label for="email1" class="form-label">Correo eléctronico</label>' +
+                    '<input type="email" class="form-control" id="email1" aria-describedby="emailHelp"></div>' +
+        
+                    '<div class="dos fw-bold w-50 container d-flex flex-column text-center justify-content-center align-content-center mb-3 mb-3">' +
+                    '<label for="city" class="form-label">Ciudad</label>' +
+                    '<input type="text" class="form-control" id="city" aria-describedby="emailHelp">' +
+                    '</div>' +
+        
+                    '<div class=" container d-flex flex-row">' +
+                    '<div class="tres px-3 fw-bold mb-3">' +
+                    '<label for="personasadultas" class="form-label">N° de adultos</label>' +
+                    '<input type="number" class="form-control" id="personasadultas" aria-describedby="emailHelp"></div>' +
+        
+                    '<div class="cuatro fw-bold mb-3">' +
+                    '<label for="reservaniños" class="form-label">N° de menores de edad</label>' +
+                    '<input type="number" class="form-control" id="reservaniños" aria-describedby="emailHelp">' +
+                    '</div>' +
+                    '</div>' +
+        
+                    '<div class="cinco  fw-bold w-50 container d-flex flex-column text-center justify-content-center align-content-center mb-3">' +
+                    '<label for="date" class=" form-label ">Selecciona la fecha</label>' +
+                    '<select id="date" class=" fechas form-select">' +
+                    '<option>28 '+ meses[mes_actual]+' 2022</option>' +
+                    '<option>10 abril 2022</option>' +
+                    '<option>17 abril 2022</option>' +
+                    '<option>24 abril 2022</option>' +
+                    '</select>' +
+                    '</div>' +
+        
+                    '<div id="formadepago">' +
+                    '<div class=" seis form-check">' +
+                    '<h5>Medio de pago</h5>' +
+                    '<input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" onclick="" checked>Crédito' +
+                    '<label class="form-check-label" for="radio1"></label>' +
+                    '</div>' +
+                    '<div class="siete form-check">' +
+                    '<input type="radio" class="form-check-input" id="radio2" name="optradio" onclick="" value="option2">Débito' +
+                    '<label class="form-check-label" for="radio2"></label>' +
+                    '</div>' +
+                    '<div class="ocho form-check">' +
+                    '<input type="radio" class="form-check-input" id="radio3" onclick="" name="optradio" value="option3">PSE' +
+                    '<label class="form-check-label" for="radio3"></label>' +
+                    '</div>' +
+                    '</div>' +
+                    '</form>',
+                confirmButtonText: 'Enviar Datos',
+                background: '#00000085',
+                color: '#fff',
+                confirmButtonColor: '#000',
+            })
+        }
+      })
+
+
+
+
 }
 
 function actividadv(){
-    Swal.fire('Esta Actividad ya se realizó')
+    Swal.fire({
+        text: 'Esta Actividad ya se realizó',
+        background: '#00000085',
+                color: '#fff',
+                confirmButtonColor: '#000',
+    })
+    
 }
 
 function nada(){
+   
 }
 
 

@@ -5,6 +5,14 @@
     margin: 20px 0;
 }
 
+
+.barra_nav {
+    top: 0px;
+    opacity: 0.7;
+    animation-duration: 4s ;
+}
+
+
 .botones{
     justify-content :center;
 }
@@ -12,4 +20,8 @@
 .seis, .siete, .ocho{
     padding-block-start: 10px;
 text-align: start;
+}
+
+.logo_nav {
+    height: 70px;
 }

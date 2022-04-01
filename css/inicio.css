@@ -63,7 +63,7 @@ body{
     background-color: #ffffff;
 }
 
-.home:hover, .actividades:hover, .calendario:hover, .pqr:hover, .galeria:hover {
+.home:hover, .actividades:hover, .calendario:hover, .Tienda:hover, .galeria:hover {
     text-decoration: underline;
     font-weight: bold;
 }

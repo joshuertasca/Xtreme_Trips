@@ -25,3 +25,36 @@ text-align: start;
 .logo_nav {
     height: 70px;
 }
+
+.logo_whatsapp {
+    top: 550px;
+    left: 20px;
+    height: 80px;
+
+}
+
+.video2{
+    width: 600px;
+}
+
+.logo_contactanos {
+    top: 550px;
+    left: 1250px;
+    height: 80px;
+}
+
+
+#boton_nombre{
+    padding: 0px 10px 100px 10px;
+    background-color: #ffffff;
+}
+
+.home:hover, .actividades:hover, .calendario:hover, .Tienda:hover, .galeria:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.logoinvertido {
+    width:200px;
+}
+

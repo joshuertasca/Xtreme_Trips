@@ -5,6 +5,10 @@
     display: none;
 
 }
+.galeria{
+    width: 2400px;
+}
+
 
 .galeria1 img {
     width: 200px;
@@ -16,23 +20,275 @@
 .buceo1 {
     width: 200px;
     height: 200px;
-    background-image: url("../img/actividades/buceo1.jpg");
+    background-image: url("../img/galeria/buceo1.jpg");
     background-size: cover;
+    background-position: center;
+    
+}
+.canyoning1 {
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/galeria/canyoning1.jpg");
+    background-size: cover;
+    color:#fff ;
+    background-position: center;
+
+}
+
+.wakeboarding1 {
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/galeria/wakeboarding1.jpg");
+    background-size: cover;
+    color:#fff ;
+    background-position: center;
+
     
 }
 
-.canopy1 {
+.kitesurf1{
     width: 200px;
     height: 200px;
-    background-image: url("../img/actividades/canopy1.jpg");
+    background-image: url("../img/galeria/kitesurf1.jpg");
     background-size: cover;
+    background-position: center;
 }
 
-.canopy1 h5 , .buceo1 h5  {
+.treakking1{
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/galeria/treakking1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.ciclomontañosmo1{
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/galeria/ciclomontañismo1.jpg");
+    background-size: cover;
+    color:#fff ;
+    background-position: center;
+
+}
+
+.motocross1{
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/galeria/motocross1.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.escalada1{
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/galeria/escalada1.jpg");
+    background-size: cover;
+    color:#fff ;
+    background-position: center;
+
+}
+
+
+.paracaidismo1{
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/galeria/paracaidismo1.jpg");
+    background-size: cover;
+    color:#fff ;
+    background-position: center;
+
+}
+
+.bungeeJumping1{
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/galeria/bungee1.jpg");
+    background-size: cover;
+    color:#fff ;
+    background-position: center;
+
+}
+
+.parapente1{
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/galeria/parapente1.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.canopy1{
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/galeria/canopy1.jpg");
+    background-size: cover;
+    display: none;
+    background-position: center;
+}
+
+.canyoning1 h6 , .buceo1 h6, .wakeboarding1 h6 , .kitesurf1 h6 , .treakking1 h6,
+.ciclomontañosmo1 h6 , .motocross1 h6, .escalada1 h6 , .bungeeJumping1 h6 , .parapente1 h6, 
+.paracaidismo1 h6 , .canopy1 h6
+{
     display: none;
 }
 
 
-.canopy1:hover h5 , .buceo1:hover h5{
+
+.canyoning1:hover h6 , .buceo1:hover h6 , .wakeboarding1:hover h6 , .kitesurf1:hover h6 , .treakking1:hover h6,
+.ciclomontañosmo1:hover h6 , .motocross1:hover h6, .escalada1:hover h6 , .bungeeJumping1:hover h6 , .parapente1:hover h6, 
+.paracaidismo1:hover h6 , .canopy1:hover h6
+{
     display: block;
 }
+
+.buceo2 {
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/galeria/buceo3.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+.canyoning2 {
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/galeria/canopy3.jpg");
+    background-size: cover;
+    background-position: center;
+   
+
+}
+
+.wakeboarding2 {
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/galeria/wakeboarding3.jpg");
+    background-size: cover;
+    color:#fff ;
+    background-position: center;
+
+    
+}
+
+.kitesurf2{
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/galeria/kifesurf2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.treakking2{
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/galeria/treakking2.jpg");
+    background-size: cover;
+    color:#fff ;
+    background-position: center;
+}
+
+.ciclomontañosmo2{
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/galeria/ciclomontañismo2.jpg");
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.motocross2{
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/galeria/motocross2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.escalada2{
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/galeria/escalada2.jpg");
+    background-size: cover;
+    color:#fff ;
+    background-position: center;
+
+}
+
+
+.paracaidismo2{
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/galeria/paracaidismo2.jpg");
+    background-size: cover;
+    color:#fff ;
+    background-position: center;
+
+}
+
+.bungeeJumping2{
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/galeria/bungee2.jpg");
+    background-size: cover;
+    color:#fff ;
+    background-position: center;
+}
+
+.parapente2{
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/galeria/parapente2.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.canopy2{
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/galeria/canopy2.jpg");
+    background-size: cover;
+    display: none;
+    background-position: center;
+}
+
+.canyoning2 h6 , .buceo2 h6, .wakeboarding2 h6 , .kitesurf2 h6 , .treakking2 h6,
+.ciclomontañosmo2 h6 , .motocross2 h6, .escalada2 h6 , .bungeeJumping2 h6 , .parapente2 h6, 
+.paracaidismo2 h6 , .canopy2 h6
+{
+    display: none;
+}
+
+
+
+.canyoning2:hover h6 , .buceo2:hover h6 , .wakeboarding2:hover h6 , .kitesurf2:hover h6 , .treakking2:hover h6,
+.ciclomontañosmo2:hover h6 , .motocross2:hover h6, .escalada2:hover h6 , .bungeeJumping2:hover h6 , .parapente2:hover h6, 
+.paracaidismo2:hover h6 , .canopy2:hover h6
+{
+    display: block;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.derecha{
+    top: 500px;
+    left:500px;
+    width: 100PX;
+    height: 80px;
+    margin-top: 80px;
+    margin-left: -450px;
+        }
+
+.izquierda{
+left:500px;
+width: 100PX;
+margin-left: 500px;
+margin-top: -60px;
+}
+        
+        

@@ -722,8 +722,8 @@ function reservas() {
             '<input type="number" class="form-control" id="personasadultas" aria-describedby="emailHelp"></div>' +
 
             '<div class="cuatro fw-bold mb-3">' +
-            '<label for="reservaniños" class="form-label">N° de menores de edad</label>' +
-            '<input type="number" class="form-control" id="reservaniños" aria-describedby="emailHelp">' +
+            '<label for="reservaninos" class="form-label">N° de menores de edad</label>' +
+            '<input type="number" class="form-control" id="reservaninos" aria-describedby="emailHelp">' +
             '</div>' +
             '</div>' +
 
@@ -764,7 +764,7 @@ function reservas() {
             var correoreserva = document.querySelector("#email1").value
             var numeroadultos = document.querySelector("#personasadultas").value
             var cuidadreserva = document.querySelector("#city").value
-            var numeroniños = document.querySelector("#reservaniños").value
+            var numeroninos = document.querySelector("#reservaninos").value
             var fechareserva = document.querySelector("#date").value
             var formasdepago = 0
             var nose = 0

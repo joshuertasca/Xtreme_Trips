@@ -1238,7 +1238,7 @@ function actividad5(){
 }
 
 function actividadv(){
-    console.log("esta actividad ya pasò");
+    Swal.fire('Esta Actividad ya se realizó')
 }
 
 function nada(){

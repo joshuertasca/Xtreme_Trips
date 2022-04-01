@@ -73,5 +73,9 @@ body{
 
 .cuadro {
     height: 45px;
-    background-color: #474747;
+    background-color: #134b4b;
+}
+
+h4 {
+    color: #faebd7;
 }

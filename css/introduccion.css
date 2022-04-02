@@ -1,0 +1,28 @@
+body {
+    height: 100%;
+    overflow: hidden
+}
+
+.video {
+    opacity: 0.5;
+}
+.logo {
+    padding-top:50px ;
+    height: 380px;
+}
+.texto1{
+    font-size: 2.4rem;
+    top:350px;
+    -webkit-text-stroke: 1.2px #000000;  /* genera el borde en el texto */
+}
+
+.botones {
+    top: 500px;
+}
+.boton1, .boton2{
+    height: 60px;
+    width: 150px;
+    font-size: 2rem;
+    -webkit-text-stroke: 1px #020202;
+}
+

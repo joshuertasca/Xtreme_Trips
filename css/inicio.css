@@ -1,0 +1,74 @@
+body{
+    overflow-x:hidden;
+    overflow-y: scroll;
+}
+
+.logo_nav {
+    height: 70px;
+}
+
+.barra_nav {
+    top: 0px;
+    opacity: 0.7;
+    animation-duration: 4s ;
+}
+
+.carousel-inner img {
+    height: 550px;
+}
+
+.titulo1{
+    margin-left: 500px;
+    animation-duration: 5s ;
+    animation-name: movimiento;
+
+}
+
+@keyframes movimiento {
+0% {
+    margin-left: 1000px;
+    transform: rotate(0);
+}
+
+100% {
+    margin-left: 500px;
+    transform: rotate(90);
+}
+}
+
+.texto1 {
+    text-align: center;
+}
+
+.logo_whatsapp {
+    top: 550px;
+    left: 20px;
+    height: 80px;
+
+}
+
+.video2{
+    width: 600px;
+}
+
+.logo_contactanos {
+    top: 550px;
+    left: 1250px;
+    height: 80px;
+}
+
+
+#boton_nombre{
+    padding: 0px 10px 100px 10px;
+    background-color: #ffffff;
+}
+
+.home:hover, .actividades:hover, .calendario:hover, .Tienda:hover, .galeria:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.logoinvertido {
+    width:200px;
+}
+

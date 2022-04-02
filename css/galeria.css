@@ -275,14 +275,7 @@
     display: none;
 }
 
-.derecha{
-    top: 500px;
-    left:500px;
-    width: 100PX;
-    height: 80px;
-    margin-top: 80px;
-    margin-left: -450px;
-        }
+
 
 .izquierda{
 left:500px;
@@ -291,8 +284,25 @@ margin-left: 500px;
 margin-top: -60px;
 }
 
-.derecha {
-    border-radius:10px;
-    outline:none;
+@media (min-width: 0px)
+{
+    .derecha{
+        top: 500px;
+        left:500px;
+        width: 100PX;
+        height: 80px;
+        margin-top: 80px;
+    
+            }   
     }
-        
+
+    @media (max-width: 768px)
+{
+    .derecha{
+        top: px;
+        left:0px;
+        width: 100PX;
+        height: 100px;
+                    }    
+      
+    }

@@ -214,6 +214,7 @@ $('.fotos').slick({
     centerMode: false,
 });
 
+
 function agua() {
     var water = document.querySelector(".total")
     water.innerHTML = `

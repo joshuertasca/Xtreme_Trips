@@ -41,7 +41,7 @@ body{
 }
 
 .logo_whatsapp {
-    top: 550px;
+    bottom:50px;
     left: 20px;
     height: 80px;
 
@@ -52,8 +52,8 @@ body{
 }
 
 .logo_contactanos {
-    top: 550px;
-    left: 1250px;
+    bottom:50px;
+    right:10px ;
     height: 80px;
 }
 

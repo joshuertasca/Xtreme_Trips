@@ -12,10 +12,10 @@ var descripcion =["","Binoculares senderismo con ajuste - mh b560 - adulto - aum
 "Guante escalada adulto aseguramiento simond cuero"]
 
 var precios = [0,248000,87000,87000,137000,1106000,165000,82000,184000,17000,26000,193000,138000]
-var cantidadcomprar = [0,0,0,0,0,0,0,0,0,0,0,0]
+var cantidadcomprar = [0,0,0,0,0,0,0,0,0,0,0,0,0]
 var elementos_tienda = document.querySelector(".elementos")
 
-for (let xx = 1; xx <= 8; xx++) {
+for (let xx = 1; xx <= 12; xx++) {
     elementos_tienda.innerHTML += `<div class="col-3 border border-1 border-dark">
     <img class="w-100 p-5" src="img/tienda/${xx}.jpg" alt="">
     <p class="precio1 text-center fs-3 fw-bold" value="${precios[xx]}" > ${precios[xx]} $</p>
@@ -162,3 +162,14 @@ function sumar8() {
 }
 
 
+function botoncompra() {
+
+    var totalcompra = 0
+    var totalelementox = 0
+    for (let yy = 1; yy <= 8; yy++) {
+        totalelementox = cantidadcomprar[yy] * precios[yy]
+        totalcompra = totalcompra + totalelementox
+        
+    }
+    Swal.fire('el total de la compra es '+ totalcompra)
+}

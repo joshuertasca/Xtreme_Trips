@@ -16,7 +16,7 @@ function contactanos(){
       '         <option value="hombre">Pacifico</option>'+
       '         <option value="hombre">Amazonias</option>'+
                 '</select>'+
-            '<label for="telefono" class="form-label">Ingrese su teléfono</label>'+
+            '<label for="telefono" class="form-label">Ingrese su Teléfono</label>'+
         '<input type="number" class="form-control" id="telefono">'+
         '<label for="nota" class="form-label">¿En qué podemos ayudarte?</label>'+
         '<input id="boton_nombre" type="text" class="form-control" id="nota">'+

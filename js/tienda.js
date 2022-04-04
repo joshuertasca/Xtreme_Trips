@@ -1,7 +1,7 @@
 const descripcion =["","Binoculares senderismo con ajuste - mh b560 - adulto - aumento x12 negro",
 "Casco roller skateboard patinete mf500 azul",
 "Protecciones patinaje adulto kit 3 fit500 negro gris",
-"Chaqueta vela sailing 100 hombre azul azul impermeable",
+"Chaqueta vela sailing 100 hombre azul impermeable",
 "Tabla surf espuma 900 6 3 alerones",
 "Bialetas leash bodyboard 500 negro amarillo",
 "Aletas kit careta snorkel snk 500 niños turquesa",

@@ -3,7 +3,7 @@ all.innerHTML = `
   <div class="container my-5">
             <div class="fotos">
                 <div class="d-flex flex-row "><img class="uno " src="img/actividades/paracaidismo2.jpeg" alt="">
-                    <div class="d-flex flex-column my-5 mx-5 ">
+                    <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
                         <h1 class="titulo1 mb-5 fw-bold">Paracaidismo</h1>
                         <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
                         <p class="fw-bold"> Precio: desde $250.000</p>
@@ -14,12 +14,13 @@ all.innerHTML = `
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
+                        <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
                     </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
                 </div>
 
                 <div class="d-flex flex-row"><img class="uno " src="img/actividades/bungee.png" alt="">
-                    <div class="d-flex flex-column my-5 mx-5 ">
+                    <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
                         <h1 class="titulo2 mb-5 fw-bold">Bungee jumping</h1>
                         <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
                         <p class="fw-bold"> Precio: desde $250.000</p>
@@ -30,12 +31,14 @@ all.innerHTML = `
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
+                        <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
                     </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
                 </div>
 
                 <div class="d-flex flex-row"><img class="uno " src="img/actividades/parapente-en-curiti.png" alt="">
-                    <div class="d-flex flex-column my-5 mx-5 ">
+                    <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
                         <h1 class="titulo3 mb-5 fw-bold">Parapente</h1>
                         <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
                         <p class="fw-bold"> Precio: desde $250.000</p>
@@ -46,12 +49,14 @@ all.innerHTML = `
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
+                        <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
                     </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
                 </div>
 
                 <div class="d-flex flex-row"><img class="uno " src="img/actividades/canopy.jpg" alt="">
-                    <div class="d-flex flex-column my-5 mx-5 ">
+                    <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
                         <h1 class="titulo4 mb-5 fw-bold">Canopy</h1>
                         <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
                         <p class="fw-bold"> Precio: desde $250.000</p>
@@ -62,12 +67,14 @@ all.innerHTML = `
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
+                        <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
                     </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
                 </div>
 
                 <div class="d-flex flex-row m-1"><img class="uno " src="img/actividades/treakking.jpg" alt="">
-                    <div class="d-flex flex-column my-5 mx-5 ">
+                    <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
                         <h1 class="titulo1 mb-5 fw-bold">Treakking</h1>
                         <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
                         <p class="fw-bold"> Precio: desde $250.000</p>
@@ -78,12 +85,14 @@ all.innerHTML = `
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
+                        <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
                     </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
                 </div>
 
                 <div class="d-flex flex-row"><img class="uno " src="img/actividades/ciclomontañismo2.jpg" alt="">
-                    <div class="d-flex flex-column my-5 mx-5 ">
+                    <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
                         <h1 class="titulo2 mb-5 fw-bold">Ciclomontañismo</h1>
                         <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
                         <p class="fw-bold"> Precio: desde $250.000</p>
@@ -94,12 +103,14 @@ all.innerHTML = `
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
+                        <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
                     </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
                 </div>
 
                 <div class="d-flex flex-row"><img class="uno " src="img/actividades/motocross2.jpg" alt="">
-                    <div class="d-flex flex-column my-5 mx-5 ">
+                    <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
                         <h1 class="titulo3 mb-5 fw-bold">Motocross</h1>
                         <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
                         <p class="fw-bold"> Precio: desde $250.000</p>
@@ -110,12 +121,14 @@ all.innerHTML = `
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
+                        <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
                     </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
                 </div>
 
                 <div class="d-flex flex-row"><img class="uno " src="img/actividades/escalada.jpg" alt="">
-                    <div class="d-flex flex-column my-5 mx-5 ">
+                    <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
                         <h1 class="titulo4 mb-5 fw-bold">Climbing</h1>
                         <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
                         <p class="fw-bold"> Precio: desde $250.000</p>
@@ -126,12 +139,14 @@ all.innerHTML = `
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
+                        <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
                     </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
                 </div>
 
                 <div class="d-flex flex-row m-1"><img class="uno " src="img/actividades/buceo.jpg" alt="">
-                    <div class="d-flex flex-column my-5 mx-5 ">
+                    <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
                         <h1 class="titulo1 mb-5 fw-bold">Buceo</h1>
                         <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
                         <p class="fw-bold"> Precio: desde $250.000</p>
@@ -142,12 +157,14 @@ all.innerHTML = `
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
+                        <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
                     </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
                 </div>
 
                 <div class="d-flex flex-row"><img class="uno " src="img/actividades/canyoning.png" alt="">
-                    <div class="d-flex flex-column my-5 mx-5 ">
+                    <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
                         <h1 class="titulo2 mb-5 fw-bold">Canyoning</h1>
                         <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
                         <p class="fw-bold"> Precio: desde $250.000</p>
@@ -158,12 +175,14 @@ all.innerHTML = `
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
+                        <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
                     </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
                 </div>
 
                 <div class="d-flex flex-row"><img class="uno " src="img/actividades/Wakeboarding.jpg" alt="">
-                    <div class="d-flex flex-column my-5 mx-5 ">
+                    <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
                         <h1 class="titulo3 mb-5 fw-bold">Wekeboarding</h1>
                         <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
                         <p class="fw-bold"> Precio: desde $250.000</p>
@@ -174,12 +193,14 @@ all.innerHTML = `
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
+                        <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
                     </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
                 </div>
 
                 <div class="d-flex flex-row"><img class="uno " src="img/actividades/Kitesurf.jpg" alt="">
-                    <div class="d-flex flex-column my-5 mx-5 ">
+                    <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
                         <h1 class="titulo4 mb-5 fw-bold">Kitesurf</h1>
                         <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
                         <p class="fw-bold"> Precio: desde $250.000</p>
@@ -190,8 +211,10 @@ all.innerHTML = `
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
+                        <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
                     </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
                 </div>
             </div>
         </div>
@@ -220,7 +243,7 @@ function agua() {
   <div class="container my-5">
   <div class="fotos">
           <div class="d-flex flex-row m-1"><img class="uno " src="img/actividades/buceo.jpg" alt="">
-          <div class="d-flex flex-column my-5 mx-5 ">
+          <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
               <h1 class="titulo1 mb-5 fw-bold">Buceo</h1>
               <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
               <p class="fw-bold"> Precio: desde $250.000</p>
@@ -231,12 +254,14 @@ function agua() {
               <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                   garantizando tu seguridad en tu experiencia.</p>
               </p>
-              <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
-          </div>
+              <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
+                    </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
       </div>
 
       <div class="d-flex flex-row"><img class="uno " src="img/actividades/canyoning.png" alt="">
-          <div class="d-flex flex-column my-5 mx-5 ">
+          <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
               <h1 class="titulo2 mb-5 fw-bold">Canyoning</h1>
               <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
               <p class="fw-bold"> Precio: desde $250.000</p>
@@ -247,12 +272,14 @@ function agua() {
               <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                   garantizando tu seguridad en tu experiencia.</p>
               </p>
-              <button type="button" class="btn btn-success w-50"onclick="reservas()"> Ir al Calendario</button>
-          </div>
+              <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
+                    </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
       </div>
 
       <div class="d-flex flex-row"><img class="uno " src="img/actividades/Wakeboarding.jpg" alt="">
-          <div class="d-flex flex-column my-5 mx-5 ">
+          <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
               <h1 class="titulo3 mb-5 fw-bold">Wekeboarding</h1>
               <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
               <p class="fw-bold"> Precio: desde $250.000</p>
@@ -263,12 +290,14 @@ function agua() {
               <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                   garantizando tu seguridad en tu experiencia.</p>
               </p>
-              <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
-          </div>
+              <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
+                    </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
       </div>
 
       <div class="d-flex flex-row"><img class="uno " src="img/actividades/Kitesurf.jpg" alt="">
-          <div class="d-flex flex-column my-5 mx-5 ">
+          <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
               <h1 class="titulo4 mb-5 fw-bold">Kitesurf</h1>
               <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
               <p class="fw-bold"> Precio: desde $250.000</p>
@@ -279,8 +308,10 @@ function agua() {
               <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                   garantizando tu seguridad en tu experiencia.</p>
               </p>
-              <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
-          </div>
+              <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
+                    </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
       </div>
   </div>
 </div>
@@ -310,7 +341,7 @@ function aire() {
   <div class="container my-5">
   <div class="fotos">
           <div class="d-flex flex-row m-1"><img class="uno " src="img/actividades/paracaidismo2.jpeg" alt="">
-          <div class="d-flex flex-column my-5 mx-5 ">
+          <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
               <h1 class="titulo1 mb-5 fw-bold">Paracaidismo</h1>
               <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
               <p class="fw-bold"> Precio: desde $250.000</p>
@@ -321,12 +352,14 @@ function aire() {
               <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                   garantizando tu seguridad en tu experiencia.</p>
               </p>
-              <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
-          </div>
+              <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
+                    </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
       </div>
 
       <div class="d-flex flex-row"><img class="uno " src="img/actividades/bungee.png" alt="">
-          <div class="d-flex flex-column my-5 mx-5 ">
+          <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
               <h1 class="titulo2 mb-5 fw-bold">Bungee jumping</h1>
               <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
               <p class="fw-bold"> Precio: desde $250.000</p>
@@ -337,12 +370,14 @@ function aire() {
               <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                   garantizando tu seguridad en tu experiencia.</p>
               </p>
-              <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
-          </div>
+              <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
+                    </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
       </div>
 
       <div class="d-flex flex-row"><img class="uno " src="img/actividades/parapente-en-curiti.png" alt="">
-          <div class="d-flex flex-column my-5 mx-5 ">
+          <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
               <h1 class="titulo3 mb-5 fw-bold">Parapente</h1>
               <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
               <p class="fw-bold"> Precio: desde $250.000</p>
@@ -353,12 +388,14 @@ function aire() {
               <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                   garantizando tu seguridad en tu experiencia.</p>
               </p>
-              <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
-          </div>
+              <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
+                    </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
       </div>
 
       <div class="d-flex flex-row"><img class="uno " src="img/actividades/canopy.jpg" alt="">
-          <div class="d-flex flex-column my-5 mx-5 ">
+          <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
               <h1 class="titulo4 mb-5 fw-bold">Canopy</h1>
               <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
               <p class="fw-bold"> Precio: desde $250.000</p>
@@ -369,8 +406,10 @@ function aire() {
               <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                   garantizando tu seguridad en tu experiencia.</p>
               </p>
-              <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
-          </div>
+              <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
+                    </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
       </div>
   </div>
 </div>
@@ -400,7 +439,7 @@ function tierra() {
   <div class="container my-5">
   <div class="fotos">
           <div class="d-flex flex-row m-1"><img class="uno " src="img/actividades/treakking.jpg" alt="">
-          <div class="d-flex flex-column my-5 mx-5 ">
+          <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
               <h1 class="titulo1 mb-5 fw-bold">Treakking</h1>
               <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
               <p class="fw-bold"> Precio: desde $250.000</p>
@@ -411,12 +450,14 @@ function tierra() {
               <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                   garantizando tu seguridad en tu experiencia.</p>
               </p>
-              <button type="button" class="btn btn-success w-50"onclick="reservas()"> Ir al Calendario</button>
-          </div>
+              <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
+                    </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
       </div>
 
       <div class="d-flex flex-row"><img class="uno " src="img/actividades/ciclomontañismo2.jpg" alt="">
-          <div class="d-flex flex-column my-5 mx-5 ">
+          <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
               <h1 class="titulo2 mb-5 fw-bold">Ciclomontañismo</h1>
               <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
               <p class="fw-bold"> Precio: desde $250.000</p>
@@ -427,12 +468,14 @@ function tierra() {
               <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                   garantizando tu seguridad en tu experiencia.</p>
               </p>
-              <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
-          </div>
+              <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
+                    </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
       </div>
 
       <div class="d-flex flex-row"><img class="uno " src="img/actividades/motocross2.jpg" alt="">
-          <div class="d-flex flex-column my-5 mx-5 ">
+          <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
               <h1 class="titulo3 mb-5 fw-bold">Motocross</h1>
               <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
               <p class="fw-bold"> Precio: desde $250.000</p>
@@ -443,12 +486,14 @@ function tierra() {
               <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                   garantizando tu seguridad en tu experiencia.</p>
               </p>
-              <button type="button" class="btn btn-success w-50"onclick="reservas()"> Ir al Calendario</button>
-          </div>
+              <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
+                    </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
       </div>
 
       <div class="d-flex flex-row"><img class="uno " src="img/actividades/escalada.jpg" alt="">
-          <div class="d-flex flex-column my-5 mx-5 ">
+          <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
               <h1 class="titulo4 mb-5 fw-bold">Escalada</h1>
               <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
               <p class="fw-bold"> Precio: desde $250.000</p>
@@ -459,8 +504,10 @@ function tierra() {
               <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                   garantizando tu seguridad en tu experiencia.</p>
               </p>
-              <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
-          </div>
+              <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
+                    </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
       </div>
   </div>
 </div>
@@ -490,7 +537,7 @@ function todos() {
   <div class="container my-5">
             <div class="fotos">
                 <div class="d-flex flex-row "><img class="uno " src="img/actividades/paracaidismo2.jpeg" alt="">
-                    <div class="d-flex flex-column my-5 mx-5 ">
+                    <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
                         <h1 class="titulo1 mb-5 fw-bold">Paracaidismo</h1>
                         <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
                         <p class="fw-bold"> Precio: desde $250.000</p>
@@ -501,12 +548,14 @@ function todos() {
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
+                        <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
                     </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
                 </div>
 
                 <div class="d-flex flex-row"><img class="uno " src="img/actividades/bungee.png" alt="">
-                    <div class="d-flex flex-column my-5 mx-5 ">
+                    <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
                         <h1 class="titulo2 mb-5 fw-bold">Bungee jumping</h1>
                         <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
                         <p class="fw-bold"> Precio: desde $250.000</p>
@@ -517,12 +566,14 @@ function todos() {
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
+                        <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
                     </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
                 </div>
 
                 <div class="d-flex flex-row"><img class="uno " src="img/actividades/parapente-en-curiti.png" alt="">
-                    <div class="d-flex flex-column my-5 mx-5 ">
+                    <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
                         <h1 class="titulo3 mb-5 fw-bold">Parapente</h1>
                         <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
                         <p class="fw-bold"> Precio: desde $250.000</p>
@@ -533,12 +584,14 @@ function todos() {
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
+                        <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
                     </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
                 </div>
 
                 <div class="d-flex flex-row"><img class="uno " src="img/actividades/canopy.jpg" alt="">
-                    <div class="d-flex flex-column my-5 mx-5 ">
+                    <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
                         <h1 class="titulo4 mb-5 fw-bold">Canopy</h1>
                         <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
                         <p class="fw-bold"> Precio: desde $250.000</p>
@@ -549,12 +602,14 @@ function todos() {
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
+                        <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
                     </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
                 </div>
 
                 <div class="d-flex flex-row m-1"><img class="uno " src="img/actividades/treakking.jpg" alt="">
-                    <div class="d-flex flex-column my-5 mx-5 ">
+                    <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
                         <h1 class="titulo1 mb-5 fw-bold">Treakking</h1>
                         <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
                         <p class="fw-bold"> Precio: desde $250.000</p>
@@ -565,12 +620,14 @@ function todos() {
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
+                        <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
                     </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
                 </div>
 
                 <div class="d-flex flex-row"><img class="uno " src="img/actividades/ciclomontañismo2.jpg" alt="">
-                    <div class="d-flex flex-column my-5 mx-5 ">
+                    <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
                         <h1 class="titulo2 mb-5 fw-bold">Ciclomontañismo</h1>
                         <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
                         <p class="fw-bold"> Precio: desde $250.000</p>
@@ -581,12 +638,14 @@ function todos() {
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
+                        <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
                     </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
                 </div>
 
                 <div class="d-flex flex-row"><img class="uno " src="img/actividades/motocross2.jpg" alt="">
-                    <div class="d-flex flex-column my-5 mx-5 ">
+                    <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
                         <h1 class="titulo3 mb-5 fw-bold">Motocross</h1>
                         <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
                         <p class="fw-bold"> Precio: desde $250.000</p>
@@ -597,12 +656,14 @@ function todos() {
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
+                        <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
                     </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
                 </div>
 
                 <div class="d-flex flex-row"><img class="uno " src="img/actividades/escalada.jpg" alt="">
-                    <div class="d-flex flex-column my-5 mx-5 ">
+                    <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
                         <h1 class="titulo4 mb-5 fw-bold">Climbing</h1>
                         <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
                         <p class="fw-bold"> Precio: desde $250.000</p>
@@ -613,12 +674,14 @@ function todos() {
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
+                        <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
                     </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
                 </div>
 
                 <div class="d-flex flex-row m-1"><img class="uno " src="img/actividades/buceo.jpg" alt="">
-                    <div class="d-flex flex-column my-5 mx-5 ">
+                    <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
                         <h1 class="titulo1 mb-5 fw-bold">Buceo</h1>
                         <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
                         <p class="fw-bold"> Precio: desde $250.000</p>
@@ -629,12 +692,14 @@ function todos() {
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
+                        <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
                     </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
                 </div>
 
                 <div class="d-flex flex-row"><img class="uno " src="img/actividades/canyoning.png" alt="">
-                    <div class="d-flex flex-column my-5 mx-5 ">
+                    <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
                         <h1 class="titulo2 mb-5 fw-bold">Canyoning</h1>
                         <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
                         <p class="fw-bold"> Precio: desde $250.000</p>
@@ -645,12 +710,14 @@ function todos() {
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
+                        <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
                     </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
                 </div>
 
                 <div class="d-flex flex-row"><img class="uno " src="img/actividades/Wakeboarding.jpg" alt="">
-                    <div class="d-flex flex-column my-5 mx-5 ">
+                    <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
                         <h1 class="titulo3 mb-5 fw-bold">Wekeboarding</h1>
                         <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
                         <p class="fw-bold"> Precio: desde $250.000</p>
@@ -661,12 +728,14 @@ function todos() {
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
+                        <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
                     </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
                 </div>
 
                 <div class="d-flex flex-row"><img class="uno " src="img/actividades/Kitesurf.jpg" alt="">
-                    <div class="d-flex flex-column my-5 mx-5 ">
+                    <div class="d-none d-lg-flex flex-lg-column my-5 mx-5 d-sm-none d-md-none ">
                         <h1 class="titulo4 mb-5 fw-bold">Kitesurf</h1>
                         <p class="fw-bold">Dispoonible en todas las regiones del pais.</p>
                         <p class="fw-bold"> Precio: desde $250.000</p>
@@ -677,8 +746,10 @@ function todos() {
                         <p>Contamos con equipos de última tecnología para llevarte hasta las nubes
                             garantizando tu seguridad en tu experiencia.</p>
                         </p>
-                        <button type="button" class="btn btn-success w-50" onclick="reservas()"> Ir al Calendario</button>
+                        <button type="button" class="btn btn-success w-50 " onclick="reservas() ">Calendario</button>
                     </div>
+                    <button type="button" class="btn btn-success w-100 d-flex d-lg-none mx-5 d-sm-flex d-md-flex botoncalendario" onclick="reservas()"> Ir al Calendario</button>
+                
                 </div>
             </div>
         </div>

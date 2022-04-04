@@ -29,9 +29,9 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end pe-5" id="navbarNavAltMarkup">
                 <div class="navbar-nav justify-content-end">
-                    <a class="nav-link home active px-3 fw-bold fs-5" aria-current="page" href="inicio.html">Home</a>
+                    <a class="nav-link home active px-3 fs-5" aria-current="page" href="inicio.html">Home</a>
                     <a class="nav-link actividades px-3 fs-5" href="actividades.html">Actividades</a>
-                    <a class="nav-link calendario px-3 fs-5" href="calendario.html">Calendario</a>
+                    <a class="nav-link calendario px-3 fw-bold fs-5" href="calendario.html">Calendario</a>
                     <a class="nav-link Tienda px-3 fs-5" href="tienda.html">Tienda</a>
                     <a class="nav-link galeria px-3 fs-5" href="galeria.html">Galería</a>
 
@@ -46,7 +46,18 @@
         </div>
     </div>
 
-    <div class=" container">
+    <div class="col-12 d-flex d-lg-none d-md-none d-sm-flex  mt-2  flex-column text-center align-content-center justify-content-center">
+        <h1 class=" my-3">Calendario</h1>
+        <div class="text-center justify-content-center align-content-center">
+            <div class="btn-group w-50 mb-2" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-primary" onclick="atras()"> < </button>
+                <button type="button" class="btn btn-primary"  onclick="today()">Actual</button>
+                <button type="button" class="btn btn-primary" onclick="adelante()" >></button>
+            </div>
+        </div>
+    </div>
+
+    <div class=" container-fluid">
         <div class="row">
             <div class="col-10 offset-1">
                 <div class="calendario2">
@@ -74,8 +85,7 @@
                             <h2>Marzo 2022</h2>
                         </div>
                         <div class="row">
-                            <div
-                                class="col-4 d-flex mt-2  flex-column text-center align-content-center justify-content-center">
+                            <div class="col-4 d-none d-lg-flex d-md-flex d-sm-none  mt-2  flex-column text-center align-content-center justify-content-center">
                                 <h1 class=" my-3">Calendario</h1>
                                 <div class="text-center justify-content-center align-content-center">
                                     <div class="btn-group w-50" role="group" aria-label="Basic example">
@@ -88,7 +98,7 @@
                                 <p class="my-5" >A continuación encontrará todas nuestras actividades ordenadas en el calendario</p>
                             </div>
                             
-                            <div class="lunes col-1 offset-0 mt-2 fw-bold text-center p-0 my-0 me-1">
+                            <div class="lunes col-1 offset-lg-0 offset-sm-2 offset-md-0 offset-2 mt-2 fw-bold text-center p-0 my-0 me-1">
                                 <p>Lu</p>
                                 
                             </div>

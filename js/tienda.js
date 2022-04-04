@@ -16,7 +16,7 @@ var cantidadcomprar = [0,0,0,0,0,0,0,0,0,0,0,0,0]
 var elementos_tienda = document.querySelector(".elementos")
 
 for (let xx = 1; xx <= 12; xx++) {
-    elementos_tienda.innerHTML += `<div class="col-3 border border-1 border-dark">
+    elementos_tienda.innerHTML += `<div class=" col-lg-3 col-md-4 col-sm-6 col-8 offset-lg-0 offset-sm-0 offset-md-0 offset-2 border border-1 border-dark">
     <img class="w-100 p-5" src="img/tienda/${xx}.jpg" alt="">
     <p class="precio1 text-center fs-3 fw-bold" value="${precios[xx]}" > ${precios[xx]} $</p>
     <div class=" d-flex flex-row">

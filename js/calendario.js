@@ -1306,7 +1306,7 @@ function actividad1() {
                     var numeropersonas = 0
                     numeropersonas = parseInt(numeroadultos)+parseInt(numeroninos)
                     const valor_adulto = 250000
-                    const valor_nino = 200000
+                    const valor_nino = 280000
 
                     var valortotaladultos = valor_adulto * numeroadultos
                     var valortotalninos = valor_nino * numeroninos
@@ -1346,7 +1346,7 @@ function actividad1() {
                             '       <div class="col-3 p-0 m-0">' +
                             '           <p class=" text-end fw-bold border border-white border-2 fs-6 p-2 m-0 text-nowrap">Valor Unitario</p>' +
                             '           <p class=" text-end border border-white border-2 fs-6 p-2 m-0">250.000 $</p>' +
-                            '           <p class=" text-end border border-white border-2 fs-6 p-2 m-0">200000 $</p>' +
+                            '           <p class=" text-end border border-white border-2 fs-6 p-2 m-0">280000 $</p>' +
                             '           <p class=" text-end border border-white border-2 fs-6 p-2 m-0">NA</p>' +
                             '       </div>' +
                             '       <div class="col-3 p-0 m-0">' +
@@ -1484,7 +1484,7 @@ function actividad2() {
                     var formasdepago = ""
                     var nose = 0
                     const valor_adulto = 250000
-                    const valor_nino = 200000
+                    const valor_nino = 280000
                     var numeropersonas = 0
                     numeropersonas = parseInt(numeroadultos)+parseInt(numeroninos)
                     var valortotaladultos = valor_adulto * numeroadultos
@@ -1525,7 +1525,7 @@ function actividad2() {
                             '       <div class="col-3 p-0 m-0">' +
                             '           <p class=" text-end fw-bold border border-white border-2 fs-6 p-2 m-0 text-nowrap">Valor Unitario</p>' +
                             '           <p class=" text-end border border-white border-2 fs-6 p-2 m-0">250.000 $</p>' +
-                            '           <p class=" text-end border border-white border-2 fs-6 p-2 m-0">200000 $</p>' +
+                            '           <p class=" text-end border border-white border-2 fs-6 p-2 m-0">280000 $</p>' +
                             '           <p class=" text-end border border-white border-2 fs-6 p-2 m-0">NA</p>' +
                             '       </div>' +
                             '       <div class="col-3 p-0 m-0">' +
@@ -1665,7 +1665,7 @@ function actividad3() {
                     var formasdepago = ""
                     var nose = 0
                     const valor_adulto = 250000
-                    const valor_nino = 200000
+                    const valor_nino = 280000
                     var numeropersonas = 0
                     numeropersonas = parseInt(numeroadultos)+parseInt(numeroninos)
                     var valortotaladultos = valor_adulto * numeroadultos
@@ -1706,7 +1706,7 @@ function actividad3() {
                             '       <div class="col-3 p-0 m-0">' +
                             '           <p class=" text-end fw-bold border border-white border-2 fs-6 p-2 m-0 text-nowrap">Valor Unitario</p>' +
                             '           <p class=" text-end border border-white border-2 fs-6 p-2 m-0">250.000 $</p>' +
-                            '           <p class=" text-end border border-white border-2 fs-6 p-2 m-0">200000 $</p>' +
+                            '           <p class=" text-end border border-white border-2 fs-6 p-2 m-0">280000 $</p>' +
                             '           <p class=" text-end border border-white border-2 fs-6 p-2 m-0">NA</p>' +
                             '       </div>' +
                             '       <div class="col-3 p-0 m-0">' +
@@ -1846,7 +1846,7 @@ function actividad4() {
                     var formasdepago = ""
                     var nose = 0
                     const valor_adulto = 250000
-                    const valor_nino = 200000
+                    const valor_nino = 280000
                     var numeropersonas = 0
                     numeropersonas = parseInt(numeroadultos)+parseInt(numeroninos)
                     console.log (numeropersonas)
@@ -1888,7 +1888,7 @@ function actividad4() {
                             '       <div class="col-3 p-0 m-0">' +
                             '           <p class=" text-end fw-bold border border-white border-2 fs-6 p-2 m-0 text-nowrap">Valor Unitario</p>' +
                             '           <p class=" text-end border border-white border-2 fs-6 p-2 m-0">250.000 $</p>' +
-                            '           <p class=" text-end border border-white border-2 fs-6 p-2 m-0">200000 $</p>' +
+                            '           <p class=" text-end border border-white border-2 fs-6 p-2 m-0">280000 $</p>' +
                             '           <p class=" text-end border border-white border-2 fs-6 p-2 m-0">NA</p>' +
                             '       </div>' +
                             '       <div class="col-3 p-0 m-0">' +
@@ -2026,7 +2026,7 @@ function actividad5() {
                     var formasdepago = ""
                     var nose = 0
                     const valor_adulto = 250000
-                    const valor_nino = 200000
+                    const valor_nino = 280000
                     var numeropersonas = 0
                     numeropersonas = parseInt(numeroadultos)+parseInt(numeroninos)
                     var valortotaladultos = valor_adulto * numeroadultos
@@ -2067,7 +2067,7 @@ function actividad5() {
                             '       <div class="col-3 p-0 m-0">' +
                             '           <p class=" text-end fw-bold border border-white border-2 fs-6 p-2 m-0 text-nowrap">Valor Unitario</p>' +
                             '           <p class=" text-end border border-white border-2 fs-6 p-2 m-0">250.000 $</p>' +
-                            '           <p class=" text-end border border-white border-2 fs-6 p-2 m-0">200000 $</p>' +
+                            '           <p class=" text-end border border-white border-2 fs-6 p-2 m-0">280000 $</p>' +
                             '           <p class=" text-end border border-white border-2 fs-6 p-2 m-0">NA</p>' +
                             '       </div>' +
                             '       <div class="col-3 p-0 m-0">' +

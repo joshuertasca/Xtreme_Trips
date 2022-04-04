@@ -26,11 +26,12 @@ Swal.fire({
     width: 550,
     height: 500,
     padding: '3em',
-    color: '#20DE20',
-    background: '#0a708f ',
-    backdrop: `
-    rgba(0,0,123,0.4)
-    `,
+    background: '#00000085',
+        color: '#fff',
+        confirmButtonColor: '#000',
+        backdrop: `
+        rgba(0,0,123,0.4)
+        `,
   }).then((result) => {
     if (result.isConfirmed) {
         window.location.href='../inicio.html'

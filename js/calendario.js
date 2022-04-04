@@ -1303,10 +1303,11 @@ function actividad1() {
                     var numeroninos = document.querySelector("#reservaninos").value
                     var fechareserva = document.querySelector("#date").value
                     var formasdepago = ""
-                    var nose = 0
+                    var numeropersonas = 0
+                    numeropersonas = parseInt(numeroadultos)+parseInt(numeroninos)
                     const valor_adulto = 250000
                     const valor_nino = 200000
-                    var numeropersonas = numeroadultos + numeroninos
+
                     var valortotaladultos = valor_adulto * numeroadultos
                     var valortotalninos = valor_nino * numeroninos
                     var valortotal = valortotaladultos + valortotalninos
@@ -1484,7 +1485,8 @@ function actividad2() {
                     var nose = 0
                     const valor_adulto = 250000
                     const valor_nino = 200000
-                    var numeropersonas = numeroadultos + numeroninos
+                    var numeropersonas = 0
+                    numeropersonas = parseInt(numeroadultos)+parseInt(numeroninos)
                     var valortotaladultos = valor_adulto * numeroadultos
                     var valortotalninos = valor_nino * numeroninos
                     var valortotal = valortotaladultos + valortotalninos
@@ -1664,7 +1666,8 @@ function actividad3() {
                     var nose = 0
                     const valor_adulto = 250000
                     const valor_nino = 200000
-                    var numeropersonas = numeroadultos + numeroninos
+                    var numeropersonas = 0
+                    numeropersonas = parseInt(numeroadultos)+parseInt(numeroninos)
                     var valortotaladultos = valor_adulto * numeroadultos
                     var valortotalninos = valor_nino * numeroninos
                     var valortotal = valortotaladultos + valortotalninos
@@ -1844,7 +1847,9 @@ function actividad4() {
                     var nose = 0
                     const valor_adulto = 250000
                     const valor_nino = 200000
-                    var numeropersonas = numeroadultos + numeroninos
+                    var numeropersonas = 0
+                    numeropersonas = parseInt(numeroadultos)+parseInt(numeroninos)
+                    console.log (numeropersonas)
                     var valortotaladultos = valor_adulto * numeroadultos
                     var valortotalninos = valor_nino * numeroninos
                     var valortotal = valortotaladultos + valortotalninos
@@ -2022,7 +2027,8 @@ function actividad5() {
                     var nose = 0
                     const valor_adulto = 250000
                     const valor_nino = 200000
-                    var numeropersonas = numeroadultos + numeroninos
+                    var numeropersonas = 0
+                    numeropersonas = parseInt(numeroadultos)+parseInt(numeroninos)
                     var valortotaladultos = valor_adulto * numeroadultos
                     var valortotalninos = valor_nino * numeroninos
                     var valortotal = valortotaladultos + valortotalninos

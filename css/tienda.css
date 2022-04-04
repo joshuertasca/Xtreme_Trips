@@ -3,6 +3,20 @@
 }
 
 .icono_compra {
-    width: 200px;
+    top: 200px;
+    left: 10px;
+    color: rgb(231, 20, 20);
 }
 
+
+.login{
+    top: 200px;
+    right: 20px;
+    color: rgb(27, 231, 20);
+}
+
+.logout1{
+    top: 300px;
+    right: 20px;
+    color: rgb(231, 20, 20);
+}

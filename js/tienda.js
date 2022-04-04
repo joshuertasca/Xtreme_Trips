@@ -31,7 +31,7 @@ var elementos_tienda = document.querySelector(".elementos")
 for (let xx = 1; xx <= 12; xx++) {
     elementos_tienda.innerHTML += `<div class=" col-lg-3 col-md-4 col-sm-6 col-8 offset-lg-0 offset-sm-0 offset-md-0 offset-2 border border-1 border-dark">
     <img class="w-100 p-5" src="img/tienda/${xx}.jpg" alt="">
-    <p class="precio1 text-center fs-3 fw-bold" value="${precios[xx]}" > ${precios[xx]} $</p>
+    <p class="precio1 text-center fs-3 fw-bold" value="${precios[xx]}" > $ ${precios[xx]}</p>
     <div class=" d-flex flex-row">
         <button type="button" class="btn btn-success w-25" onclick="restar${xx}()">-</button> 
         
@@ -291,10 +291,10 @@ function login() {
                 
             
                 
-                elementos_tienda.innerHTML += `<div class="col-3 border border-1 border-dark">
+                elementos_tienda.innerHTML += `<div class=" col-lg-3 col-md-4 col-sm-6 col-8 offset-lg-0 offset-sm-0 offset-md-0 offset-2 border border-1 border-dark">
                 <img class="w-100 p-5" src="img/tienda/${xx}.jpg" alt="">
                 <input type="number" class="text-center form-control" id="nuevovalor${xx}" placeholder="$ ${precios[xx]} ">
-                <p class="precio1 text-center fs-3 fw-bold" value="${precios[xx]}" > ${precios[xx]} $</p>
+                <p class="precio1 text-center fs-3 fw-bold" value="${precios[xx]}" > $ ${precios[xx]}</p>
                 <p class="descripcion${xx} text-center mt-4"> ${descripcion[xx]}</p>
                 </div> ` 
               
@@ -370,9 +370,9 @@ function logout() {
     var elementos_tienda = document.querySelector(".elementos")
     elementos_tienda.innerHTML = ``
     for (let xx = 1; xx <= 12; xx++) {
-        elementos_tienda.innerHTML += `<div class="col-3 border border-1 border-dark">
+        elementos_tienda.innerHTML += `<div class=" col-lg-3 col-md-4 col-sm-6 col-8 offset-lg-0 offset-sm-0 offset-md-0 offset-2 border border-1 border-dark">
         <img class="w-100 p-5" src="img/tienda/${xx}.jpg" alt="">
-        <p class="precio1 text-center fs-3 fw-bold" value="${precios[xx]}" > ${precios[xx]} $</p>
+        <p class="precio1 text-center fs-3 fw-bold" value="${precios[xx]}" > $ ${precios[xx]}</p>
         <div class=" d-flex flex-row">
             <button type="button" class="btn btn-success w-25" onclick="restar${xx}()">-</button> 
             
@@ -418,7 +418,7 @@ function botoncompra() {
             '       <div class="valortotalarticulo fs-6"></div>'+
             '    </div>'+
             '</div>'+
-            '<h3>El valor total de su compra es ' + totalcompra +'$ </h3>'
+            '<h3>El valor total de su compra es $' + totalcompra +' </h3>'
 
 
             ,

@@ -11,6 +11,19 @@ const descripcion =["","Binoculares senderismo con ajuste - mh b560 - adulto - a
 "Arnés para escalar - easy 3 azul",
 "Guante escalada adulto aseguramiento simond cuero"]
 
+const articulos =["","Binoculares",
+"Casco",
+"Protecciones",
+"Chaqueta",
+"Tablasurf",
+"Bialetas",
+"Aletas",
+"Botas",
+"Cordones",
+"Pies de gato",
+"Arnés",
+"Guante escal"]
+
 var precios = [0,248000,87000,87000,137000,1106000,165000,82000,184000,17000,26000,193000,138000]
 var cantidadcomprar = [0,0,0,0,0,0,0,0,0,0,0,0,0]
 var elementos_tienda = document.querySelector(".elementos")
@@ -254,7 +267,18 @@ function login() {
         
 
         if (usuarioingresado == usuario1 && contrasenaingresada == contrasena1) {
-            Swal.fire('Ha ingresado a modo administrador')
+            Swal.fire({
+                
+                text:'Ha ingresado a modo administrador',
+                background: '#00000085',
+        color: '#fff',
+        confirmButtonColor: '#000',
+        backdrop: `
+        rgba(0,0,123,0.4)
+        `,
+            })
+        
+           
             elementos_tienda.innerHTML = ``
             var logout1 =  document.querySelector(".logout")
             var login1 = document.querySelector(".login11")
@@ -277,7 +301,16 @@ function login() {
             }
 
         }else {
-            Swal.fire('Los datos ingresados son errones')
+            Swal.fire({
+                
+                text:'Los datos ingresados son errones',
+                background: '#00000085',
+        color: '#fff',
+        confirmButtonColor: '#000',
+        backdrop: `
+        rgba(0,0,123,0.4)
+        `,
+            })
         }
 
 
@@ -289,6 +322,19 @@ function login() {
 
 
 function logout() {
+    Swal.fire({
+            position: 'center',
+            icon: 'success',
+            title: 'Los datos han sido actualizados',
+            showConfirmButton: false,
+            timer: 2500,
+            background: '#00000085',
+            color: '#fff',
+            backdrop: `
+            rgba(0,0,123,0.4)
+            `,
+
+    })
     var logout1 =  document.querySelector(".logout")
     var login1 = document.querySelector(".login11")
     login1.innerHTML = `<i class="d-flex  icono_compra position-fixed fa-bounce  fa-solid fa-cart-shopping fa-4x" onclick="botoncompra()"></i>
@@ -348,8 +394,70 @@ function botoncompra() {
         totalcompra = totalcompra + totalelementox
         
     }
-    Swal.fire('el total de la compra es '+ totalcompra)
-    
+    Swal.fire({
+        
+        html:
+
+        '<h1 class=" text-center">Detalles de la compra</h1>'+ 
+        '<div class=" container-fluid">'+
+        '    <div class="row">'+
+            '   <div class="col-4 p-0 m-0">'+
+            '       <p class=" fw-bold border border-danger p-2 fs-6 m-0">Articulo</p>'+
+            '       <div class="tipoarticulo fs-6"></div>'+
+            '   </div>'+
+            '   <div class="col-2 p-0 m-0">'+
+            '       <p class=" text-end fw-bold border border-danger fs-6 p-2 m-0">Cant</p>'+
+            '       <div class="cantidadarticulo fs-6"></div>'+
+            '   </div>'+
+            '   <div class="col-3 p-0 m-0">'+
+            '       <p class=" text-end fw-bold border border-danger fs-6 p-2 m-0">Valor Uni</p>'+
+            '       <div class="valoruniarticulo fs-6"></div>'+
+            '   </div>'+
+            '   <div class="col-3 p-0 m-0">'+
+            '       <p class=" text-end fw-bold border border-danger fs-6 p-2 m-0">Valor Total</p>'+
+            '       <div class="valortotalarticulo fs-6"></div>'+
+            '    </div>'+
+            '</div>'+
+            '<h3>El valor total de su compra es ' + totalcompra +'$ </h3>'
+
+
+            ,
+
+
+        confirmButtonText: 'Enviar Datos',
+        background: '#00000085',
+        color: '#fff',
+        confirmButtonColor: '#000',
+
+        confirmButtonText: 'Finalizar Compra',
+    }).then((result) => {
+        if (result.isConfirmed) {
+            Swal.fire({
+                position: 'center',
+                icon: 'success',
+                title: 'Su reserva ha sido realizada',
+                showConfirmButton: false,
+                timer: 3000,
+                background: '#00000085',
+                color: '#fff',
+                confirmButtonColor: '#000'
+            })
+        }
+    })
+
+
+    var tipoarticulo1 = document.querySelector(".tipoarticulo")
+    var cantidadarticulo1 = document.querySelector(".cantidadarticulo")
+    var valoruniarticulo1 = document.querySelector(".valoruniarticulo")
+    var valortotalarticulo1 = document.querySelector(".valortotalarticulo")
+    for (let jj = 1; jj <= 12; jj++) {
+        if (cantidadcomprar[jj]>0) {
+            tipoarticulo1.innerHTML +=`<p class=" text-end border border-danger p-2 m-0">`+articulos[jj] +`</p>`
+            cantidadarticulo1.innerHTML  +=`<p class=" text-end border border-danger p-2 m-0">`+cantidadcomprar[jj] +`</p>`
+            valoruniarticulo1.innerHTML  +=`<p class=" text-end border border-danger p-2 m-0">`+precios[jj] +`</p>`
+            valortotalarticulo1.innerHTML  +=`<p class=" text-end border border-danger p-2 m-0">`+precios[jj]*cantidadcomprar[jj] +`</p>`
+        }        
+    }
 }
 
 

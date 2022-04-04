@@ -2,12 +2,12 @@ function contactanos(){
     Swal.fire({
       html:
       '<div >'+
-      ' <h1>contactanos</h1>'+
-      ' <label for="correo" class="form-label">Ingresa tu correo electronico</label>'+
+      ' <h1>contáctanos</h1>'+
+      ' <label for="correo" class="form-label">Ingresa tu correo electrónico</label>'+
       ' <input type="email" class="form-control" id="correo">'+
       ' <label for="nombre_apellido" class="form-label">Ingresa tu nombre y apellido</label>'+
       ' <input type="text" class="form-control" id="nombre_apellido">'+
-      ' <label for="region" class="form-label">en que region de Colombia te encuentras</label>'+
+      ' <label for="region" class="form-label">en que región de Colombia te encuentras</label>'+
       '     <select class="form-select" id="region">'+
       '         <option selected disabled>Seleccione su region...</option>'+
       '         <option value="mujer">Andina</option>'+
@@ -16,9 +16,9 @@ function contactanos(){
       '         <option value="hombre">Pacifico</option>'+
       '         <option value="hombre">Amazonias</option>'+
                 '</select>'+
-            '<label for="telefono" class="form-label">Ingrese un su telefono</label>'+
+            '<label for="telefono" class="form-label">Ingrese un su teléfono</label>'+
         '<input type="number" class="form-control" id="telefono">'+
-        '<label for="nota" class="form-label">Cuentanos en que podemos ayudarte</label>'+
+        '<label for="nota" class="form-label">Cuéntanos en que podemos ayudarte</label>'+
         '<input id="boton_nombre" type="text" class="form-control" id="nota">'+
     '</div>',
 
@@ -51,7 +51,7 @@ function contactanos(){
           
           Toast.fire({
             icon: 'success',
-            title: 'su mensaje ha sido enviado recibirá respuesta en el correo '+valor + ' en las proximas 24 horas',
+            title: 'Su mensaje ha sido enviado, recibirá respuesta en el correo '+valor + ' en las próximas 24 horas',
             background: '#00000085',
         color: '#fff',
         confirmButtonColor: '#000',
@@ -67,7 +67,7 @@ function whatsapp() {
   
   Swal.fire({
     title: 'Ir a chat de Whatsapp',
-    text: "se redigira la pagina a https://web.whatsapp.com/",
+    text: "se redireccionará la página a https://web.whatsapp.com/",
     icon: 'question',
     showCancelButton: true,
     background: '#00000085',
@@ -76,8 +76,8 @@ function whatsapp() {
         backdrop: `
         rgba(0,0,123,0.4)
         `,
-    confirmButtonText: 'Si, abandonar pagina',
-    cancelButtonText: 'No, permanecer en esta pagina'
+    confirmButtonText: 'Si, abandonar página',
+    cancelButtonText: 'No, permanecer en esta página'
   }).then((result) => {
     if (result.isConfirmed) {
       

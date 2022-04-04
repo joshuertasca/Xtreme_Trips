@@ -1240,7 +1240,7 @@ function actividad1() {
                 html:
                     '<form>' +
                     '<div class="uno fw-bold mb-3">' +
-                    '<label for="email1" class="form-label">Correo eléctronico</label>' +
+                    '<label for="email1" class="form-label">Correo electrónico</label>' +
                     '<input type="email" class="form-control" id="email1" aria-describedby="emailHelp"></div>' +
 
                     '<div class="dos fw-bold w-50 container d-flex flex-column text-center justify-content-center align-content-center mb-3 mb-3">' +
@@ -1419,7 +1419,7 @@ function actividad2() {
                 html:
                     '<form>' +
                     '<div class="uno fw-bold mb-3">' +
-                    '<label for="email1" class="form-label">Correo eléctronico</label>' +
+                    '<label for="email1" class="form-label">Correo electrónico</label>' +
                     '<input type="email" class="form-control" id="email1" aria-describedby="emailHelp"></div>' +
 
                     '<div class="dos fw-bold w-50 container d-flex flex-column text-center justify-content-center align-content-center mb-3 mb-3">' +
@@ -1600,7 +1600,7 @@ function actividad3() {
                 html:
                     '<form>' +
                     '<div class="uno fw-bold mb-3">' +
-                    '<label for="email1" class="form-label">Correo eléctronico</label>' +
+                    '<label for="email1" class="form-label">Correo electrónico</label>' +
                     '<input type="email" class="form-control" id="email1" aria-describedby="emailHelp"></div>' +
 
                     '<div class="dos fw-bold w-50 container d-flex flex-column text-center justify-content-center align-content-center mb-3 mb-3">' +
@@ -1781,7 +1781,7 @@ function actividad4() {
                 html:
                     '<form>' +
                     '<div class="uno fw-bold mb-3">' +
-                    '<label for="email1" class="form-label">Correo eléctronico</label>' +
+                    '<label for="email1" class="form-label">Correo electrónico</label>' +
                     '<input type="email" class="form-control" id="email1" aria-describedby="emailHelp"></div>' +
 
                     '<div class="dos fw-bold w-50 container d-flex flex-column text-center justify-content-center align-content-center mb-3 mb-3">' +
@@ -1961,7 +1961,7 @@ function actividad5() {
                 html:
                     '<form>' +
                     '<div class="uno fw-bold mb-3">' +
-                    '<label for="email1" class="form-label">Correo eléctronico</label>' +
+                    '<label for="email1" class="form-label">Correo electrónico</label>' +
                     '<input type="email" class="form-control" id="email1" aria-describedby="emailHelp"></div>' +
 
                     '<div class="dos fw-bold w-50 container d-flex flex-column text-center justify-content-center align-content-center mb-3 mb-3">' +

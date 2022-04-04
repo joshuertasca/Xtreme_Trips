@@ -402,7 +402,7 @@ function botoncompra() {
         '<div class=" container-fluid">'+
         '    <div class="row">'+
             '   <div class="col-4 p-0 m-0">'+
-            '       <p class=" fw-bold border border-danger p-2 fs-6 m-0">Articulo</p>'+
+            '       <p class=" fw-bold border border-danger p-2 fs-6 m-0">Artículo</p>'+
             '       <div class="tipoarticulo fs-6"></div>'+
             '   </div>'+
             '   <div class="col-2 p-0 m-0">'+
@@ -435,7 +435,7 @@ function botoncompra() {
             Swal.fire({
                 position: 'center',
                 icon: 'success',
-                title: 'Su reserva ha sido realizada',
+                title: 'Su compra ha sido realizada',
                 showConfirmButton: false,
                 timer: 3000,
                 background: '#00000085',

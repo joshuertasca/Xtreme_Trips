@@ -22,7 +22,7 @@ function b1() {
 function alerta(){
 Swal.fire({
     icon: 'warning',
-    title: 'No intente las actividades que encuentras en esta pagina sin la supervisión de un profesional',
+    title: 'No intente las actividades que encuentras en esta página sin la supervisión de un profesional',
     width: 550,
     height: 500,
     padding: '3em',
